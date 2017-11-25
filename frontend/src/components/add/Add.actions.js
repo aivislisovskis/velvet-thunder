@@ -87,11 +87,11 @@ export const actionAddUpdate = (item) => (dispatch) => {
         'Content-Type': 'application/json'
       },
       method: 'POST',
-      body: {
-        list: window.JSON.stringify(list),
+      body: JSON.stringify({
+        list,
         company,
         product
-      }
+      })
     })
       .then(json => {
         dispatch(actionAddDoneSending())
