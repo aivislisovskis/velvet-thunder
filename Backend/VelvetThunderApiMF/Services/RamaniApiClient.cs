@@ -50,8 +50,8 @@ namespace VelvetThunderApiMF.Services
             Stream stream = client.GetStreamAsync(requestAdress).Result;
 
 
-            //HttpClient httpClient = new HttpClient();
-            //return  httpClient.GetStringAsync(requestAdress).Result;
+            HttpClient httpClient = new HttpClient();
+            return  httpClient.GetStringAsync(requestAdress).Result;
 
         }
     }
