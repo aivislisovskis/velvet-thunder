@@ -5,7 +5,7 @@ import {
 } from './Details.actions.names';
 
 const DetailsReducer = (state = {
-  score:"...",
+  score:false,
   noScore:true,
   waitingScore:true
 }, action) => {

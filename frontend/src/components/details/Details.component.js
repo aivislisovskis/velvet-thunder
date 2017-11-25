@@ -31,7 +31,7 @@ class DetailsComponent extends React.Component {
       title="Eternal Earth"
     />
     <Toolbar>
-    <ToolbarTitle text="Sustainability scoring of washing machine made by Grammargate Corparation" />
+    <ToolbarTitle text={`Sustainability scoring of ${props.score.Name} made by ${props.score.CompanyName}`} />
     </Toolbar>
     <div className="gridContainer">
     <div className="sidebar">
@@ -57,6 +57,7 @@ class DetailsComponent extends React.Component {
         <div className="seal">
           <div className="face">
             <div className="evaluation">
+              {props.score.Score}
             </div>
           </div>
         </div>
@@ -71,39 +72,18 @@ class DetailsComponent extends React.Component {
     </div>
     </a>
     <List style={style}>
-      <ListItem
-        leftAvatar={<Avatar icon={<FileFolder />} />}
-        rightIcon={<ActionInfo />}
-        primaryText="Ironize"
-        secondaryText="Iron supplier"
-      />
-      <ListItem
-        leftAvatar={<Avatar icon={<FileFolder />} />}
-        rightIcon={<ActionInfo />}
-        primaryText="Big Metal"
-        secondaryText="Metal plant fron Africa"
-      />
-      <ListItem
-        leftAvatar={<Avatar icon={<FileFolder />} />}
-        rightIcon={<ActionInfo />}
-        primaryText="Plactic Fun co"
-        secondaryText="Plastic material supplier"
-      />
-      <ListItem
-        leftAvatar={<Avatar icon={<FileFolder />} />}
-        rightIcon={<ActionInfo />}
-        primaryText="Plactic Fun co"
-        secondaryText="Plastic material supplier"
-      />
-      <ListItem
-        leftAvatar={<Avatar icon={<FileFolder />} />}
-        rightIcon={<ActionInfo />}
-        primaryText="Plactic Fun co"
-        secondaryText="Plastic material supplier"
-      />
+      {props.score?props.score.FactoryList.map((factory) => {
+          return <ListItem
+            leftAvatar={<Avatar icon={<FileFolder />} />}
+            rightIcon={<ActionInfo />}
+            primaryText={`${factory.Location}; ${factory.Latitude}, ${factory.Longitude}`}
+            secondaryText={factory.Description}
+          />
+      }):''}
     </List>
     </div>
     <div className="mainbar">
+
       </div>
       </div>
     </div>
