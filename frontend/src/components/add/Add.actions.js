@@ -80,7 +80,10 @@ export const actionAddUpdate = (item) => (dispatch) => {
   const HardCodedFetchLink2 = 'http://velvetthunderapimf.azurewebsites.net/product';
 
   export const actionAddSave = (list, company, product) => (dispatch) => {
-    dispatch(actionAddPrepareSending())
+    dispatch(actionAddPrepareSending());
+    const newList = list.map((element) => {
+      return element.value;
+    })
     fetch(HardCodedFetchLink2, {
       headers: {
         Accept: 'application/json',
@@ -88,7 +91,7 @@ export const actionAddUpdate = (item) => (dispatch) => {
       },
       method: 'POST',
       body: JSON.stringify({
-        list,
+        list: newList,
         company,
         product
       })
