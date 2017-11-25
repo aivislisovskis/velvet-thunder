@@ -32,7 +32,6 @@ class DetailsComponent extends React.Component {
         <div className="seal">
           <div className="face">
             <div className="evaluation">
-            {props.score}
             </div>
           </div>
         </div>
