@@ -26,14 +26,16 @@ class DetailsComponent extends React.Component {
 
   render() {
     const { props } = this;
-    return (<div>
+    return (
+    <div className="body">
       <AppBar
       title="Eternal Earth"
     />
     <Toolbar>
     <ToolbarTitle text="The Cool company" />
     </Toolbar>
-    
+    <div className="gridContainer">
+    <div className="sidebar">
     <a className="vtlogolink">
       <div className="vtlogo">
       <div className="upper">
@@ -102,7 +104,10 @@ class DetailsComponent extends React.Component {
         secondaryText="Plastic material supplier"
       />
     </List>
-    
+    </div>
+    <div className="mainbar">
+      </div>
+      </div>
     </div>
     );
   }
