@@ -15,7 +15,7 @@
     width: 100px;
 }
 
-.vt-logo {
+.vtlogo {
     background: #000 url("http://stash.rachelnabors.com/codepen/badge/dark_wall.png");
     -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
@@ -27,10 +27,10 @@
     height: 11em;
     /* Ribbon inspired by http://thecodeplayer.com/walkthrough/single-element-pure-css3-double-fold-ribbon */
   }
-  .vt-logo img {
+  .vtlogo img {
     height: 4em;
   }
-  .vt-logo:before {
+  .vtlogo:before {
     content: '';
     position: absolute;
     top: 3.2em;
@@ -54,7 +54,7 @@
     /*Fix to make the borders appear on the ribbon ends also*/
     background-origin: border-box;
   }
-  .vt-logo:after {
+  .vtlogo:after {
     content: "";
     border: .1em dashed green;
     -moz-border-radius: 100%;
@@ -67,6 +67,7 @@
     height: 10.4em;
   }
   
+  @import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
   /* Set Text on a Circle from https://css-tricks.com/set-text-on-a-circle/ */
   .upper, .lower {
     color: #fff;
@@ -236,29 +237,29 @@
     position: absolute;
     width: 100%;
     left: 0;
-    top: 26%;
+    top: 23%;
     font-size: 3em;
     font-family: sans-serif;
     color: #fff;
   }
   
-  .vt-logo.yellow .seal {
+  .vtlogo.yellow .seal {
     border: .15em dotted #df9408;
   }
-  .vt-logo.yellow .face {
+  .vtlogo.yellow .face {
     background: #df9408;
   }
-  .vt-logo.yellow:after {
+  .vtlogo.yellow:after {
     border: .1em dashed #df9408;
   }
   
-  .vt-logo.red .seal {
+  .vtlogo.red .seal {
     border: .15em dotted #c30909;
   }
-  .vt-logo.red .face {
+  .vtlogo.red .face {
     background: #c30909;
   }
-  .vt-logo.red:after {
+  .vtlogo.red:after {
     border: .1em dashed #c30909;
   }
   
