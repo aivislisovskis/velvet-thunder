@@ -10,6 +10,6 @@ namespace VelvetThunderApiMF.Models
         public string Name;
         public string CompanyName;
         public List<Factory> FactoryList;
-        public ProductPollutionScore ProductPollutionScore;
+        public double Score;
     }
 }
