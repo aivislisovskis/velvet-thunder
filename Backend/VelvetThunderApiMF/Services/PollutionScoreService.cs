@@ -19,8 +19,12 @@ namespace VelvetThunderApiMF.Services
         //TODO: save real sum...
         public void CreateProduct(Product product)
         {
-            product.Score = 10.0;
-
+            double sum = 0;
+            foreach (Factory factory in product.FactoryList)
+            {
+                sum = sum + factory.Score;
+            }
+            product.Score = sum / product.FactoryList.Count;
             SaveProduct(product);
         }
 
