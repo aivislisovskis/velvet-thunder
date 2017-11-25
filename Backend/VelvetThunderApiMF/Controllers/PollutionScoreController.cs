@@ -43,8 +43,12 @@ namespace VelvetThunderApiMF.Controllers
 
         [HttpPost]
         [Route("product")]
-        public IHttpActionResult AddProduct(Product product)
+        public IHttpActionResult AddProduct(ProductApiRequest productRequest)
         {
+            Product product = new Product();
+            product.FactoryList = productRequest.list;
+            product.CompanyName = productRequest.company;
+            product.Name = productRequest.product;
             _pollutionScoreService.CreateCompanyPollutionDataSet(product);
             return Ok();
 
