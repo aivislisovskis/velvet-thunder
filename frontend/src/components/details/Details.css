@@ -262,4 +262,22 @@
   .vtlogo.red:after {
     border: .1em dashed #c30909;
   }
-  
+
+  .gridContainer{
+    display: flex;
+    align-items: stretch;
+      flex-grow: 2;
+  }
+
+ html,body,#root,#root>div,.body{
+   height: 100%;
+ } 
+.body{
+  display: flex;
+  flex-direction: column;
+}
+
+.mainbar{
+  flex-grow: 2;
+  background: #232323;
+}
