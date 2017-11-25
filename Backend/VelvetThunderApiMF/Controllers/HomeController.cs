@@ -16,7 +16,7 @@ namespace VelvetThunderApiMF.Controllers
             jsonDataService.readJson();
 
             RamaniApiClient ramaniApiClient = new RamaniApiClient();
-            ramaniApiClient.getMetadata();
+            ramaniApiClient.GetMetadata();
             return View();
         }
     }
