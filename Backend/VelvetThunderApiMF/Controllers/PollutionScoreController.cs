@@ -1,4 +1,5 @@
-﻿using System.Web.Http;
+﻿using System.Collections.Generic;
+using System.Web.Http;
 using VelvetThunderApiMF.Models;
 using VelvetThunderApiMF.Services;
 
@@ -19,12 +20,21 @@ namespace VelvetThunderApiMF.Controllers
         [Route("score")]
         public string GetOverallScore(string productId)
         {
+
             return _pollutionScoreService.GetOverallPolutionScore(productId).ToString();
         }
 
         [HttpGet]
+        [Route("factories")]
+        public List<Factory> GetAllFactories()
+        {
+
+            return _pollutionScoreService.GetFactories();
+        }
+
+        [HttpGet]
         [Route("detailedscore")]
-        public CompanyPollutionScore GetDetailedScore(string productId)
+        public ProductPollutionScore GetDetailedScore(string productId)
         {
             return  _pollutionScoreService.GetDetailedCompanyPollutionScore(productId);
         }

@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom';
 import './index.css';
-import React, { Component } from 'react';
+import React, { component } from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import { createLogger } from 'redux-logger';

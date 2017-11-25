@@ -2,13 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Newtonsoft.Json;
 using VelvetThunderApiMF.Models;
 
 namespace VelvetThunderApiMF.Services
 {
     public class PollutionScoreService
     {
-        //expose as get
+        private AzureJsonDataService _azuerAzureJsonDataService;
+        public PollutionScoreService()
+        {
+            _azuerAzureJsonDataService = new AzureJsonDataService();
+        }
+        //exposed as get
         public double GetOverallPolutionScore(string company)
         {
             double polutionScore = new Random().Next(11);
@@ -22,37 +28,55 @@ namespace VelvetThunderApiMF.Services
 
             return polutionScore;
         }
-        //expose as post
-        public void CreateCompanyPollutionDataSet(Company company)
-        {
-            FactoryPollutionScore factoryPollutionScore;
+        //exposed as post
 
-            CompanyPollutionScore companyPollutionScore = new CompanyPollutionScore();
-            companyPollutionScore.Score = new List<FactoryPollutionScore>();
-            foreach (string factoryid in company.FactoryList)
+        //TODO: ReCheck Models. Something has gone wrong.
+        public void CreateCompanyPollutionDataSet(Product product)
+        {
+            ProductPollutionScore productPollutionScore = new ProductPollutionScore();
+            productPollutionScore.Score = new List<FactoryPollutionScore>();
+            foreach (string factoryid in product.FactoryList)
             {
-                factoryPollutionScore = new FactoryPollutionScore
+                var factoryPollutionScore = new FactoryPollutionScore
                 {
                     Factoryid = factoryid,
                     PollutionScore = CalculateOverallPolutionScore(factoryid)
                 };
-                companyPollutionScore.Score.Add(factoryPollutionScore);
-
+                productPollutionScore.Score.Add(factoryPollutionScore);
             }
-            //TODO: Dump in JSON
-
+            SaveProduct(product);
         }
 
-        //expose as get
-        public CompanyPollutionScore GetDetailedCompanyPollutionScore(string name)
+        public ProductPollutionScore GetDetailedCompanyPollutionScore(string name)
         {
-            return new CompanyPollutionScore();
+            return new ProductPollutionScore();
         }
 
+        //TODO: Add more comprehenesive logic to calculate pollution for factory. 
         private double CalculatePollutionForFactory(string factoryId)
         {
             return 9.2;
 
+        }
+
+        //TODO: Expose as GetFactories() endpoint
+        public List<Factory> GetFactories()
+        {
+            string jsonContent = _azuerAzureJsonDataService.GetFileContent(@"ACL\factories.json");
+            return JsonConvert.DeserializeObject<List<Factory>>(jsonContent) ?? new List<Factory>();
+        }
+
+        
+        private void SaveProduct(Product product)
+        {
+            AzureJsonDataService azuerAzureJsonDataService = new AzureJsonDataService();
+            string jsonContent = azuerAzureJsonDataService.GetFileContent(@"products.json");
+
+            List<Product> productList = JsonConvert.DeserializeObject<List<Product>>(jsonContent) ?? new List<Product>();
+
+            productList.Add(product);
+            var ser = JsonConvert.SerializeObject(productList);
+            azuerAzureJsonDataService.UpdateFileContent(ser, @"products.json");
         }
     }
 }
