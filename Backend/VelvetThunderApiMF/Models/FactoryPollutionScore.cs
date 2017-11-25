@@ -9,5 +9,6 @@ namespace VelvetThunderApiMF.Models
     {
         public double PollutionScore;
         public string Factoryid;
+        public string FactoryNane;
     }
 }

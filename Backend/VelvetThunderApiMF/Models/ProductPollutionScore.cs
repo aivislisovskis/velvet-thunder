@@ -8,6 +8,6 @@ namespace VelvetThunderApiMF.Models
     public class ProductPollutionScore
     {
         public List<FactoryPollutionScore> Score;
-        public Product Product;
+        public double OverallProductionScore;
     }
 }

@@ -1,10 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using VelvetThunderApiMF.Models;
 using VelvetThunderApiMF.Services;
 
 namespace VelvetThunderApiMF.Controllers
 {
+    [EnableCors("*","*","*")]
     public class PollutionScoreController : ApiController
     {
         private readonly PollutionScoreService _pollutionScoreService;
