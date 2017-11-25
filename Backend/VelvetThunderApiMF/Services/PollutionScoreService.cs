@@ -52,14 +52,14 @@ namespace VelvetThunderApiMF.Services
             return new ProductPollutionScore();
         }
 
-        //TODO: Add more comprehenesive logic to calculate pollution for factory. 
+        //TODO: Add real calculation
         private double CalculatePollutionForFactory(string factoryId)
         {
-            return 9.2;
+            Random random = new Random();
+            return random.NextDouble() * (10.0 - 6.5) + 6.5;
 
         }
 
-        //TODO: Expose as GetFactories() endpoint
         public List<Factory> GetFactories()
         {
             string jsonContent = _azuerAzureJsonDataService.GetFileContent(@"ACL\factories.json");
