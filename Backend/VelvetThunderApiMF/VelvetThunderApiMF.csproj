@@ -223,9 +223,7 @@
     </Compile>
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ProductApiRequest.cs" />
-    <Compile Include="Models\ProductPollutionScore.cs" />
     <Compile Include="Models\Factory.cs" />
-    <Compile Include="Models\FactoryPollutionScore.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AzureJsonDataService.cs" />
     <Compile Include="Services\JsonDataService.cs" />

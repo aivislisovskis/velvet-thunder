@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Web.Http;
 using System.Web.Http.Cors;
 using VelvetThunderApiMF.Models;
@@ -23,22 +24,21 @@ namespace VelvetThunderApiMF.Controllers
         public string GetOverallScore(string productId)
         {
 
-            return _pollutionScoreService.GetOverallPolutionScore(productId).ToString();
+            return _pollutionScoreService.GetProduct(productId).Score.ToString();
         }
 
         [HttpGet]
         [Route("factories")]
         public List<Factory> GetAllFactories()
         {
-
             return _pollutionScoreService.GetFactories();
         }
 
         [HttpGet]
         [Route("detailedscore")]
-        public ProductPollutionScore GetDetailedScore(string productId)
+        public Product GetDetailedScore(string productId)
         {
-            return  _pollutionScoreService.GetDetailedCompanyPollutionScore(productId);
+            return  _pollutionScoreService.GetProduct(productId);
         }
 
         [HttpPost]
@@ -46,12 +46,15 @@ namespace VelvetThunderApiMF.Controllers
         public IHttpActionResult AddProduct(ProductApiRequest productRequest)
         {
             Product product = new Product();
-            product.FactoryList = productRequest.list;
+            product.FactoryList = new List<Factory>();
+            foreach (string factoryId in productRequest.list)
+            {
+                product.FactoryList.Add(_pollutionScoreService.GetFactoyById(factoryId));
+            }
             product.CompanyName = productRequest.company;
             product.Name = productRequest.product;
-            _pollutionScoreService.CreateCompanyPollutionDataSet(product);
+            _pollutionScoreService.CreateProduct(product);
             return Ok();
-
         }
 
         [HttpGet]

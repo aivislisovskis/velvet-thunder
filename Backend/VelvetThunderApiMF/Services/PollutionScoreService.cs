@@ -15,58 +15,27 @@ namespace VelvetThunderApiMF.Services
         {
             _azuerAzureJsonDataService = new AzureJsonDataService();
         }
-        //exposed as get
-        public double GetOverallPolutionScore(string productid)
+
+        //TODO: save real sum...
+        public void CreateProduct(Product product)
         {
-            double polutionScore = new Random().Next(11);
+            product.Score = 10.0;
 
-            return polutionScore;
-        }
-
-        public double CalculateFactoryPolutionScore(string productid)
-        {
-            double polutionScore = new Random().Next(11);
-
-            return polutionScore;
-        }
-        //exposed as post
-
-        //TODO: ReCheck Models. Something has gone wrong.
-        public void CreateCompanyPollutionDataSet(Product product)
-        {
-            double sumCriteria = 0;
-            ProductPollutionScore productPollutionScore = new ProductPollutionScore();
-            productPollutionScore.Score = new List<FactoryPollutionScore>();
-            foreach (string factoryid in product.FactoryList)
-            {
-                var factoryPollutionScore = new FactoryPollutionScore
-                {
-                    Factoryid = factoryid,
-                    PollutionScore = CalculateFactoryPolutionScore(factoryid)
-                };
-                sumCriteria = sumCriteria + factoryPollutionScore.PollutionScore;
-                productPollutionScore.Score.Add(factoryPollutionScore);
-            }
-            productPollutionScore.OverallProductionScore = sumCriteria / product.FactoryList.Count;
             SaveProduct(product);
         }
 
-        public ProductPollutionScore GetDetailedCompanyPollutionScore(string name)
+        //TODO: GET REAL PRODUCT
+        public Product GetProduct(string name)
         {
-            return new ProductPollutionScore();
-        }
-
-        //TODO: Add real calculation
-        private double CalculatePollutionForFactory(string factoryId)
-        {
-            Random random = new Random();
-            return random.NextDouble() * (10.0 - 6.5) + 6.5;
+            string jsonContent = _azuerAzureJsonDataService.GetFileContent(@"products.json");
+            var products = JsonConvert.DeserializeObject<List<Product>>(jsonContent) ?? new List<Product>();
+            return products.First(x => x.Name == name);
 
         }
 
         public List<Factory> GetFactories()
         {
-            string jsonContent = _azuerAzureJsonDataService.GetFileContent(@"ACL\factories.json");
+            string jsonContent = _azuerAzureJsonDataService.GetFileContent(@"ACL\factories2.json");
             return JsonConvert.DeserializeObject<List<Factory>>(jsonContent) ?? new List<Factory>();
         }
 
@@ -81,6 +50,12 @@ namespace VelvetThunderApiMF.Services
             productList.Add(product);
             var ser = JsonConvert.SerializeObject(productList);
             azuerAzureJsonDataService.UpdateFileContent(ser, @"products.json");
+        }
+
+        public Factory GetFactoyById(string id)
+        {
+            var factories = GetFactories();
+            return GetFactories().First(x => x.UID == id);
         }
     }
 }
