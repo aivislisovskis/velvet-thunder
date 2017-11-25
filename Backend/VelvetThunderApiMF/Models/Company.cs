@@ -8,5 +8,6 @@ namespace VelvetThunderApiMF.Models
     public class Company
     {
         public string Name;
+        public List<string> FactoryList;
     }
 }

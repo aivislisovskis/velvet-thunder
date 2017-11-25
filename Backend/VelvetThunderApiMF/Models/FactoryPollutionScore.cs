@@ -7,7 +7,7 @@ namespace VelvetThunderApiMF.Models
 {
     public class FactoryPollutionScore
     {
-        public double PollitionScore;
-        public Factory Factory;
+        public double PollutionScore;
+        public string Factoryid;
     }
 }

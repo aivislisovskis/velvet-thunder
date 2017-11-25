@@ -25,14 +25,34 @@ namespace VelvetThunderApiMF.Services
         //expose as post
         public void CreateCompanyPollutionDataSet(Company company)
         {
-            //Store File in BLOB storage?
-            //
+            FactoryPollutionScore factoryPollutionScore;
+
+            CompanyPollutionScore companyPollutionScore = new CompanyPollutionScore();
+            companyPollutionScore.Score = new List<FactoryPollutionScore>();
+            foreach (string factoryid in company.FactoryList)
+            {
+                factoryPollutionScore = new FactoryPollutionScore
+                {
+                    Factoryid = factoryid,
+                    PollutionScore = CalculateOverallPolutionScore(factoryid)
+                };
+                companyPollutionScore.Score.Add(factoryPollutionScore);
+
+            }
+            //TODO: Dump in JSON
+
         }
 
         //expose as get
         public CompanyPollutionScore GetDetailedCompanyPollutionScore(string name)
         {
             return new CompanyPollutionScore();
+        }
+
+        private double CalculatePollutionForFactory(string factoryId)
+        {
+            return 9.2;
+
         }
     }
 }
