@@ -181,9 +181,14 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Company.cs" />
+    <Compile Include="Models\CompanyPollutionScore.cs" />
     <Compile Include="Models\Factory.cs" />
+    <Compile Include="Models\FactoryPollutionScore.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\JsonDataService.cs" />
+    <Compile Include="Services\PollutionScoreService.cs" />
+    <Compile Include="Services\RamaniApiClient.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />

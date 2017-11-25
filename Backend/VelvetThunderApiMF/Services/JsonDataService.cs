@@ -13,7 +13,7 @@ namespace VelvetThunderApiMF.Services
         private const string FileName = @"C:\Users\artur\Source\Repos\velvet-thunder\Backend\VelvetThunderApiMF\Data\factories.json";
         public JsonDataService()
         {
-            //
+
         }
 
         public void readJson()

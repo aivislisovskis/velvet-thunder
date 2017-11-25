@@ -14,6 +14,9 @@ namespace VelvetThunderApiMF.Controllers
             ViewBag.Title = "Home Page";
             JsonDataService jsonDataService = new JsonDataService();
             jsonDataService.readJson();
+
+            RamaniApiClient ramaniApiClient = new RamaniApiClient();
+            ramaniApiClient.getMetadata();
             return View();
         }
     }
