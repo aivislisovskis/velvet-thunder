@@ -2,7 +2,7 @@ import { connect } from 'react-redux';
 
 import WidgetComponent from './Widget.component';
 import {
-  actionWidgetGetScore
+  actionWidgetUpdate
 } from './Widget.actions';
 
 const mapStateToProps = (state) => ({
@@ -11,9 +11,9 @@ const mapStateToProps = (state) => ({
   waitingScore: state.WidgetReducer.waitingScore,
 });
 
-const mapDispatchToProps = () => ({
-  getScore: actionWidgetGetScore
-})
+const mapDispatchToProps = ({
+  getScore: actionWidgetUpdate
+});
 
 const Widget = connect(
   mapStateToProps,

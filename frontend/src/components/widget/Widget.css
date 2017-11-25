@@ -1,26 +1,14 @@
-.container {
-    width: 50%;
-    margin: auto;
-    padding: 20px;
-    flex-direction: column;
-    display: flex;
-}
 
-.finalPayment {
-    color: #fff;
+.vtlogolink{
+  margin: 1em 4em;
+  display: block;
+  width: 176px;
 }
-
-.button {
-    margin-top: 20px;
-    width: 100px;
-}
-
 .vtlogo {
     background: #000 url("http://stash.rachelnabors.com/codepen/badge/dark_wall.png");
     -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
     border-radius: 100%;
-    margin: 1em auto;
     position: relative;
     text-align: center;
     width: 11em;
@@ -241,6 +229,7 @@
     font-size: 3em;
     font-family: sans-serif;
     color: #fff;
+    line-height: 1.1;
   }
   
   .vtlogo.yellow .seal {
@@ -262,4 +251,5 @@
   .vtlogo.red:after {
     border: .1em dashed #c30909;
   }
+  
   

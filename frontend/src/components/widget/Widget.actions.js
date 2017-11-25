@@ -17,3 +17,18 @@ export const actionWidgetShowScore = (score) => ({
   type: WIDGET_SHOW_SCORE,
   score
 });
+
+const HardCodedFetchLink = 'http://velvetthunderapimf.azurewebsites.net/score';
+
+export const actionWidgetUpdate = (item) => (dispatch) => {
+  dispatch(actionWidgetGetScore())
+  fetch(HardCodedFetchLink + `?productId=${item}`, {
+    headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/json'
+    },
+    method: 'GET'
+  })
+    .then(response => response.json())
+    .then(json => dispatch(actionWidgetShowScore(json)));
+  }
