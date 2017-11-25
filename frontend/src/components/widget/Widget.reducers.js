@@ -5,7 +5,7 @@ import {
 } from './Widget.actions.names';
 
 const WidgetReducer = (state = {
-  score:0,
+  score:"...",
   noScore:true,
   waitingScore:true
 }, action) => {
