@@ -6,7 +6,9 @@ import {
   ADD_PASSIVE_FACTORY_LIST,
   ADD_SEARCH,
   ADD_PREPARE_SENDING,
-  ADD_DONE_SENDING
+  ADD_DONE_SENDING,
+  ADD_CHANGE_COMPANY,
+  ADD_CHANGE_PRODUCT,
 } from './Add.actions.names';
 
 const AddReducer = (state = {
@@ -26,6 +28,16 @@ const AddReducer = (state = {
       return {
         ...state,
         searchText: action.searchText
+      };
+    case ADD_CHANGE_COMPANY:
+      return {
+        ...state,
+        companyName: action.text
+      };
+    case ADD_CHANGE_PRODUCT:
+      return {
+        ...state,
+        productName: action.text
       };
     case ADD_NO_SCORE:
       return {
@@ -50,6 +62,8 @@ const AddReducer = (state = {
         return {
           ...state,
           searchText: '',
+          companyName: '',
+          productName: '',
           active: []
         }
       case ADD_PASSIVE_FACTORY_LIST:

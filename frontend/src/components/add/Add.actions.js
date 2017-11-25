@@ -6,13 +6,25 @@ import {
   ADD_PASSIVE_FACTORY_LIST,
   ADD_SEARCH,
   ADD_PREPARE_SENDING,
-  ADD_DONE_SENDING
+  ADD_DONE_SENDING,
+  ADD_CHANGE_COMPANY,
+  ADD_CHANGE_PRODUCT,
 } from './Add.actions.names';
 
 export const actionAddSearch = (searchText) => ({
   type: ADD_SEARCH,
   searchText
-})
+});
+
+export const actionAddChangeCompany = (text) => ({
+  type: ADD_CHANGE_COMPANY,
+  text
+});
+
+export const actionAddChangeProduct = (text) => ({
+  type: ADD_CHANGE_PRODUCT,
+  text
+});
 
 export const actionAddGetScore = (id) => ({
   type: ADD_GET_SCORE,
@@ -65,9 +77,9 @@ export const actionAddUpdate = (item) => (dispatch) => {
     );
   }
 
-  const HardCodedFetchLink2 = 'http://velvetthunderapimf.azurewebsites.net/factories';
+  const HardCodedFetchLink2 = 'http://velvetthunderapimf.azurewebsites.net/product';
 
-  export const actionAddSave = (list) => (dispatch) => {
+  export const actionAddSave = (list, company, product) => (dispatch) => {
     dispatch(actionAddPrepareSending())
     fetch(HardCodedFetchLink2, {
       headers: {
@@ -76,7 +88,9 @@ export const actionAddUpdate = (item) => (dispatch) => {
       },
       method: 'POST',
       body: {
-        list: window.JSON.stringify(list)
+        list: window.JSON.stringify(list),
+        company,
+        product
       }
     })
       .then(json => {

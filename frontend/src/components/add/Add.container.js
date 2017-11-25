@@ -6,7 +6,9 @@ import {
   actionAddActiveFactoryList,
   actionAddPassiveFactoryList,
   actionAddSearch,
-  actionAddSave
+  actionAddSave,
+  actionAddChangeCompany,
+  actionAddChangeProduct
 } from './Add.actions';
 
 const mapStateToProps = (state) => ({
@@ -15,6 +17,8 @@ const mapStateToProps = (state) => ({
   waitingScore: state.AddReducer.waitingScore,
   searchText: state.AddReducer.searchText,
   active: state.AddReducer.active,
+  companyName: state.AddReducer.companyName,
+  productName: state.AddReducer.productName
 });
 
 const mapDispatchToProps = ({
@@ -22,7 +26,9 @@ const mapDispatchToProps = ({
   useItem: actionAddActiveFactoryList,
   onUpdateInput: actionAddSearch,
   remove: actionAddPassiveFactoryList,
-  saveProduct: actionAddSave
+  saveProduct: actionAddSave,
+  onChangeCompany: actionAddChangeCompany,
+  onChangeProduct: actionAddChangeProduct,
 });
 
 const Add = connect(
