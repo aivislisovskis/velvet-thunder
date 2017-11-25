@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Web.Http;
 using VelvetThunderApiMF.Services;
+//using System.Web.Http.Cors;
 
 namespace VelvetThunderApiMF
 {
@@ -16,6 +17,7 @@ namespace VelvetThunderApiMF
             // Web API routes
             config.MapHttpAttributeRoutes();
 
+            config.EnableCors();
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",

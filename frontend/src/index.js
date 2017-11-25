@@ -49,7 +49,7 @@ const store = createStore(
 
 ReactDOM.render(
    <Provider store={store}>
-     <MuiThemeProvider>
+   <MuiThemeProvider>
       <ConnectedRouter  history={history}>
         <div>
         <Route path="/id/:productId" component={Widget} />
@@ -57,7 +57,7 @@ ReactDOM.render(
         <Route path="/details/:productId" component={Details} />
         </div>
       </ConnectedRouter>
-    </MuiThemeProvider>
+      </MuiThemeProvider>
     </Provider>
     ,
       document.getElementById('root')

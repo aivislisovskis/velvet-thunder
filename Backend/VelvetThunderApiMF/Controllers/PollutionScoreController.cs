@@ -1,10 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using VelvetThunderApiMF.Models;
 using VelvetThunderApiMF.Services;
 
 namespace VelvetThunderApiMF.Controllers
 {
+    [EnableCors("*","*","*")]
     public class PollutionScoreController : ApiController
     {
         private readonly PollutionScoreService _pollutionScoreService;
@@ -37,6 +39,15 @@ namespace VelvetThunderApiMF.Controllers
         public ProductPollutionScore GetDetailedScore(string productId)
         {
             return  _pollutionScoreService.GetDetailedCompanyPollutionScore(productId);
+        }
+
+        [HttpPost]
+        [Route("product")]
+        public IHttpActionResult AddProduct(Product product)
+        {
+            _pollutionScoreService.CreateCompanyPollutionDataSet(product);
+            return Ok();
+
         }
 
         [HttpGet]

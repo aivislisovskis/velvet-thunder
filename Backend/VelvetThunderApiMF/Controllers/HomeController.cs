@@ -30,11 +30,11 @@ namespace VelvetThunderApiMF.Controllers
 
 
 
-            JsonDataService jsonDataService = new JsonDataService();
+            /*JsonDataService jsonDataService = new JsonDataService();
             jsonDataService.readJson();
 
             RamaniApiClient ramaniApiClient = new RamaniApiClient();
-            ramaniApiClient.GetMetadata();
+            ramaniApiClient.GetMetadata();*/
             return View();
         }
     }
