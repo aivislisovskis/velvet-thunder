@@ -14,7 +14,6 @@ import {Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle} from 'material-ui
 import './Details.css';
 
 const style = {
-  width: 400,
 };
 
 
