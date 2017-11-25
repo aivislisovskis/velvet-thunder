@@ -7,7 +7,7 @@ namespace VelvetThunderApiMF.Models
 {
     public class ProductApiRequest
     {
-        public List<string> list;
+        public List<Factory> list;
         public string company;
         public string product;
     }
