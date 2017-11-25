@@ -5,9 +5,9 @@ using System.Web;
 
 namespace VelvetThunderApiMF.Models
 {
-    public class CompanyPollutionScore
+    public class ProductPollutionScore
     {
         public List<FactoryPollutionScore> Score;
-        public Company Company;
+        public Product Product;
     }
 }

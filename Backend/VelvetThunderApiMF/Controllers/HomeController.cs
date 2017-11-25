@@ -14,7 +14,7 @@ namespace VelvetThunderApiMF.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
-            //AzureJsonDataService azuerAzureJsonDataService = new AzureJsonDataService();
+
             //string jsonContent = azuerAzureJsonDataService.GetFileContent(@"products.json");
 
             //List<Factory> factories = JsonConvert.DeserializeObject<List<Factory>>(jsonContent) ?? new List<Factory>();
@@ -27,7 +27,6 @@ namespace VelvetThunderApiMF.Controllers
             //factories.Add(newFactory);
             //var ser = JsonConvert.SerializeObject(factories);
             //azuerAzureJsonDataService.UpdateFileContent(ser, @"products.json");
-
 
 
 
