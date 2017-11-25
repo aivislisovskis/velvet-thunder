@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using System.Web;
 using Newtonsoft.Json;
 using VelvetThunderApiMF.Models;
@@ -15,14 +16,14 @@ namespace VelvetThunderApiMF.Services
             _azuerAzureJsonDataService = new AzureJsonDataService();
         }
         //exposed as get
-        public double GetOverallPolutionScore(string company)
+        public double GetOverallPolutionScore(string productid)
         {
             double polutionScore = new Random().Next(11);
 
             return polutionScore;
         }
 
-        public double CalculateOverallPolutionScore(string company)
+        public double CalculateFactoryPolutionScore(string productid)
         {
             double polutionScore = new Random().Next(11);
 
@@ -33,6 +34,7 @@ namespace VelvetThunderApiMF.Services
         //TODO: ReCheck Models. Something has gone wrong.
         public void CreateCompanyPollutionDataSet(Product product)
         {
+            double sumCriteria = 0;
             ProductPollutionScore productPollutionScore = new ProductPollutionScore();
             productPollutionScore.Score = new List<FactoryPollutionScore>();
             foreach (string factoryid in product.FactoryList)
@@ -40,10 +42,12 @@ namespace VelvetThunderApiMF.Services
                 var factoryPollutionScore = new FactoryPollutionScore
                 {
                     Factoryid = factoryid,
-                    PollutionScore = CalculateOverallPolutionScore(factoryid)
+                    PollutionScore = CalculateFactoryPolutionScore(factoryid)
                 };
+                sumCriteria = sumCriteria + factoryPollutionScore.PollutionScore;
                 productPollutionScore.Score.Add(factoryPollutionScore);
             }
+            productPollutionScore.OverallProductionScore = sumCriteria / product.FactoryList.Count;
             SaveProduct(product);
         }
 
