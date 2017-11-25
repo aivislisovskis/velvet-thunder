@@ -11,7 +11,8 @@ class WidgetComponent extends React.Component {
   render() {
     const { props } = this;
     return (
-      <div className="vtlogo">
+      <a className="vtlogolink" target="_blank" href={ "/details/" + props.match.params.productId }>
+      <div className="vtlogo green">
       <div className="upper">
         <span className="char1">s</span>
         <span className="char2">u</span>
@@ -45,6 +46,7 @@ class WidgetComponent extends React.Component {
         <span className="char5">e</span>
       </div>
     </div>
+    </a>
     );
   }
 }
