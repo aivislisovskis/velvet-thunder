@@ -1,0 +1,3778 @@
+﻿[
+  {
+    "UID": "f0357a3f-154b-32ff-a2bf-f55055457068",
+    "Code": "AF",
+    "Location": "Afghanistan",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "33.67",
+    "Longitude": "65.21"
+  },
+  {
+    "UID": "0d0ac1d0-76ad-307d-8b0e-05f06c746da9",
+    "Code": "RAF",
+    "Location": "Africa",
+    "Description": "reference location, sources:  ecoinvent 3, ILCD, GaBi",
+    "Latitude": "6.41",
+    "Longitude": "18.28"
+  },
+  {
+    "UID": "af92823f-638d-36d7-8406-451a58f61543",
+    "Code": "IAI Area 2, without Quebec",
+    "Location": "AI producing Area 2, North America, without Quebec",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "55.96",
+    "Longitude": "-91.69"
+  },
+  {
+    "UID": "9ebe579b-1c4d-361f-97a7-4d7f59fcb7a6",
+    "Code": "Akrotiri",
+    "Location": "Akrotiri Sovereign Base Area",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "34.63",
+    "Longitude": "32.93"
+  },
+  {
+    "UID": "31c68c64-6657-3dcc-bc06-2d977c76315b",
+    "Code": "IAI Area 1",
+    "Location": "Al producing Area 1, Africa",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "-2.34",
+    "Longitude": "22.31"
+  },
+  {
+    "UID": "cf7ec575-43e5-3274-8c54-1e9ec72461bd",
+    "Code": "Al producing Area 2, North America",
+    "Location": "Al producing Area 2, North America",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "55.13",
+    "Longitude": "-103.95"
+  },
+  {
+    "UID": "8364be66-e49f-36e8-8ea4-a8795d469fe3",
+    "Code": "IAI Area 3",
+    "Location": "Al producing Area 3, South America",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "-15.98",
+    "Longitude": "-57.19"
+  },
+  {
+    "UID": "bf69fffd-74b6-38ce-8f6d-ceb50bafc212",
+    "Code": "IAI Area 6A",
+    "Location": "Al producing Area 6A, West Europe",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "52.13",
+    "Longitude": "6.08"
+  },
+  {
+    "UID": "6283d7a2-fe9b-303e-bb10-35a6cba0804d",
+    "Code": "IAI Area 6B",
+    "Location": "Al producing Area 6B, East/Central Europe",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "61.28",
+    "Longitude": "92.9"
+  },
+  {
+    "UID": "a335f1f7-79cd-311f-b82e-33648aa17cd3",
+    "Code": "IAI Area 8",
+    "Location": "Al producing Area 8, Gulf-Aluminium Council/Gulf Region",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "21.35",
+    "Longitude": "55.61"
+  },
+  {
+    "UID": "d9a20693-e28e-33ac-aa03-8df3b3bfa273",
+    "Code": "ASCC",
+    "Location": "Alaska Systems Coordinating Council",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "60.53",
+    "Longitude": "-143.14"
+  },
+  {
+    "UID": "97282b27-8e5d-3186-af8e-57204e4820e5",
+    "Code": "AL",
+    "Location": "Albania",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "41.14",
+    "Longitude": "20.06"
+  },
+  {
+    "UID": "0de7b6a6-1a70-388b-a6e6-eeb3113531a3",
+    "Code": "DZ",
+    "Location": "Algeria",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "28.16",
+    "Longitude": "2.63"
+  },
+  {
+    "UID": "a2788633-a453-37e8-ac1d-c6c5b63300b2",
+    "Code": "IAI Area, EU27 & EFTA",
+    "Location": "Aluminium producing area, EU27 and EFTA countries",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "53.93",
+    "Longitude": "8.96"
+  },
+  {
+    "UID": "15b95f69-f97e-36b9-a54e-905eff9c2bdb",
+    "Code": "IAI Area, Europe outside EU & EFTA",
+    "Location": "Aluminium producing area, Europe outside EU27 and EFTA",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "61.93",
+    "Longitude": "96.49"
+  },
+  {
+    "UID": "f970e276-7d0c-3e75-876e-a857f92e319b",
+    "Code": "AS",
+    "Location": "American Samoa",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-14.31",
+    "Longitude": "-170.73"
+  },
+  {
+    "UID": "6b356dcf-86c7-3e74-826f-3ae5725687d3",
+    "Code": "UN-AMERICAS",
+    "Location": "Americas",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "35.54",
+    "Longitude": "-83.1"
+  },
+  {
+    "UID": "523af537-946b-39c4-b836-9ed39ba78605",
+    "Code": "AD",
+    "Location": "Andorra",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "42.54",
+    "Longitude": "1.57"
+  },
+  {
+    "UID": "adac5e63-f80f-3629-a957-3527b25891d3",
+    "Code": "AO",
+    "Location": "Angola",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-12.29",
+    "Longitude": "17.54"
+  },
+  {
+    "UID": "4921c0e2-d1f6-305a-be1f-9ec2e2041909",
+    "Code": "AI",
+    "Location": "Anguilla",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "18.23",
+    "Longitude": "-63.03"
+  },
+  {
+    "UID": "b2b04af9-f8f3-3b06-a29e-03ac8d3c24ca",
+    "Code": "AQ",
+    "Location": "Antarctica",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-80.44",
+    "Longitude": "21.3"
+  },
+  {
+    "UID": "4e42f7dd-43ec-3fe1-84de-58610557c5ba",
+    "Code": "AG",
+    "Location": "Antigua and Barbuda",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "17.07",
+    "Longitude": "-61.78"
+  },
+  {
+    "UID": "c582dec9-43ff-3b74-baa0-691df291cea6",
+    "Code": "AR",
+    "Location": "Argentina",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-35.37",
+    "Longitude": "-65.16"
+  },
+  {
+    "UID": "c04cd38a-eb30-33ad-9f8a-b4e64a0ded7b",
+    "Code": "AM",
+    "Location": "Armenia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "40.53",
+    "Longitude": "44.56"
+  },
+  {
+    "UID": "b787d22d-9cb0-3342-a58b-f546039117bc",
+    "Code": "AW",
+    "Location": "Aruba",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "12.51",
+    "Longitude": "-69.97"
+  },
+  {
+    "UID": "bc388e13-830e-35bd-8be3-d90b027ac5ad",
+    "Code": "AUS-AC",
+    "Location": "Ashmore and Cartier Islands",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "-12.43",
+    "Longitude": "123.58"
+  },
+  {
+    "UID": "1c280670-4821-3d48-b168-efc6d6685406",
+    "Code": "RAS",
+    "Location": "Asia",
+    "Description": "reference location, sources:  ecoinvent 3, ILCD, GaBi",
+    "Latitude": "45.2",
+    "Longitude": "96.07"
+  },
+  {
+    "UID": "9331c8d7-3b48-3a8f-a4a8-2ea976840ba9",
+    "Code": "Asia without China",
+    "Location": "Asia without China",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "47.17",
+    "Longitude": "94.01"
+  },
+  {
+    "UID": "e39deabc-78c0-37a0-a5dd-30a225aa9eec",
+    "Code": "UN-ASIA",
+    "Location": "Asia, UN Region",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "32.22",
+    "Longitude": "84.57"
+  },
+  {
+    "UID": "8bcc25c9-6aa5-371f-ba76-309077753e67",
+    "Code": "AU",
+    "Location": "Australia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-24.97",
+    "Longitude": "136.18"
+  },
+  {
+    "UID": "05b093bc-7b17-3c30-a09d-1c41f13e009a",
+    "Code": "UN-AUSTRALIANZ",
+    "Location": "Australia and New Zealand",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "-26.38",
+    "Longitude": "135.98"
+  },
+  {
+    "UID": "3e91fecc-17db-3393-ad8f-0e2c0131053d",
+    "Code": "AUS-ACT",
+    "Location": "Australian Capital Territory",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "-35.49",
+    "Longitude": "149"
+  },
+  {
+    "UID": "7d0db380-a5b9-3a8b-a1da-0bca241abda1",
+    "Code": "AT",
+    "Location": "Austria",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "47.68",
+    "Longitude": "14.91"
+  },
+  {
+    "UID": "cc8c0a97-c2df-3d73-8aff-160b65aa39e2",
+    "Code": "AZ",
+    "Location": "Azerbaijan",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "40.43",
+    "Longitude": "47.39"
+  },
+  {
+    "UID": "7c9df801-238a-3e28-8ae2-675fd3166a1a",
+    "Code": "BS",
+    "Location": "Bahamas",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "24.62",
+    "Longitude": "-78.01"
+  },
+  {
+    "UID": "c08bba7a-0c03-36f1-951e-8474d853ecbf",
+    "Code": "BH",
+    "Location": "Bahrain",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "26.01",
+    "Longitude": "50.56"
+  },
+  {
+    "UID": "cfd7a475-f752-3ef8-95e8-d042c4511dd3",
+    "Code": "Bajo Nuevo",
+    "Location": "Bajo Nuevo Bank (Petrel Is.)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "15.81",
+    "Longitude": "-79.83"
+  },
+  {
+    "UID": "b380c952-746f-3cf9-89ae-d6562c7ee132",
+    "Code": "BALTSO",
+    "Location": "Baltic System Operator",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "56.81",
+    "Longitude": "24.72"
+  },
+  {
+    "UID": "c419b06b-4c65-39b5-8ff0-5adb3b8424f1",
+    "Code": "BD",
+    "Location": "Bangladesh",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "24.21",
+    "Longitude": "89.94"
+  },
+  {
+    "UID": "21ad0bd8-36b9-3d08-b4cf-640b4c298e7c",
+    "Code": "BB",
+    "Location": "Barbados",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "13.15",
+    "Longitude": "-59.55"
+  },
+  {
+    "UID": "df3f079d-e696-3496-b046-0dcfdbf9bca3",
+    "Code": "BY",
+    "Location": "Belarus",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "53.54",
+    "Longitude": "28.04"
+  },
+  {
+    "UID": "910955a9-07e7-39b8-9ec8-855763108a29",
+    "Code": "BE",
+    "Location": "Belgium",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "50.64",
+    "Longitude": "4.66"
+  },
+  {
+    "UID": "b005ad12-9444-3268-8084-f19bf5e19729",
+    "Code": "BZ",
+    "Location": "Belize",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "17.21",
+    "Longitude": "-88.6"
+  },
+  {
+    "UID": "39b9df3a-0fb3-356d-91a6-3e22260e96ab",
+    "Code": "BJ",
+    "Location": "Benin",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "10.54",
+    "Longitude": "2.46"
+  },
+  {
+    "UID": "08424385-5820-39ca-87f4-66f645784636",
+    "Code": "BM",
+    "Location": "Bermuda",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "32.33",
+    "Longitude": "-64.7"
+  },
+  {
+    "UID": "69206263-69b1-3058-84f5-e3d6f93b5f6e",
+    "Code": "BT",
+    "Location": "Bhutan",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "27.41",
+    "Longitude": "90.42"
+  },
+  {
+    "UID": "ad7532d5-b386-3a40-8fbe-01f9455dca36",
+    "Code": "BO",
+    "Location": "Bolivia, Plurinational State of",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-16.71",
+    "Longitude": "-64.67"
+  },
+  {
+    "UID": "52196aa5-4f16-34f9-acbf-26439c42c763",
+    "Code": "BQ",
+    "Location": "Bonaire, Sint Eustatius and Saba",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3",
+    "Latitude": "12.56",
+    "Longitude": "-68.33"
+  },
+  {
+    "UID": "07159c47-ee1b-39ae-8fb9-c40d480856c4",
+    "Code": "BA",
+    "Location": "Bosnia and Herzegovina",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "44.16",
+    "Longitude": "17.78"
+  },
+  {
+    "UID": "823355b6-3ab3-3f0a-8e4d-1367e89abd1c",
+    "Code": "BW",
+    "Location": "Botswana",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-22.18",
+    "Longitude": "23.81"
+  },
+  {
+    "UID": "121aa3ee-4a7d-3b1b-bbc7-60fd0c6de79b",
+    "Code": "BV",
+    "Location": "Bouvet Island",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-54.42",
+    "Longitude": "3.41"
+  },
+  {
+    "UID": "dc634e20-7282-3fe0-b5be-9a2063390544",
+    "Code": "BR",
+    "Location": "Brazil",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-10.77",
+    "Longitude": "-53.08"
+  },
+  {
+    "UID": "f98ed07a-4d5f-30f7-9e14-10d905f1477f",
+    "Code": "IO",
+    "Location": "British Indian Ocean Territory",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-7.33",
+    "Longitude": "72.41"
+  },
+  {
+    "UID": "4e58188f-f528-3ea1-aec7-38fffc0e118d",
+    "Code": "BN",
+    "Location": "Brunei Darussalam",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "4.46",
+    "Longitude": "114.59"
+  },
+  {
+    "UID": "5523c88d-d347-31b7-8c61-7f632b7efdb7",
+    "Code": "BG",
+    "Location": "Bulgaria",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "42.76",
+    "Longitude": "25.23"
+  },
+  {
+    "UID": "c9f9d7dd-806c-3412-a041-837a80f47c64",
+    "Code": "BF",
+    "Location": "Burkina Faso",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "12.27",
+    "Longitude": "-1.74"
+  },
+  {
+    "UID": "99d4fb3d-b156-3c87-9a2c-dfc0158b37c3",
+    "Code": "BI",
+    "Location": "Burundi",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-3.35",
+    "Longitude": "29.88"
+  },
+  {
+    "UID": "fa46ec0b-4924-38c2-994a-53ef61b94039",
+    "Code": "KH",
+    "Location": "Cambodia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "12.71",
+    "Longitude": "104.56"
+  },
+  {
+    "UID": "820eb5b6-96ea-3a65-bc0d-b1e258dc7d81",
+    "Code": "CM",
+    "Location": "Cameroon",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "5.13",
+    "Longitude": "12.27"
+  },
+  {
+    "UID": "5435c69e-d3bc-35b2-a4d5-80e393e373d3",
+    "Code": "CA",
+    "Location": "Canada",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "59.08",
+    "Longitude": "-109.43"
+  },
+  {
+    "UID": "546c1bd3-1f98-3d06-b407-1a7319f0ca71",
+    "Code": "Canada without Alberta",
+    "Location": "Canada without Alberta",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "61.8",
+    "Longitude": "-97.48"
+  },
+  {
+    "UID": "9a0db1a8-1866-3aaa-9f25-881d425e2981",
+    "Code": "Canada without Alberta or Quebec",
+    "Location": "Canada without Alberta or Quebec",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "63.05",
+    "Longitude": "-101.3"
+  },
+  {
+    "UID": "042dd99e-b0ff-3653-814e-445ca0093427",
+    "Code": "ROC",
+    "Location": "Canada without Quebec",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "62.47",
+    "Longitude": "-101.92"
+  },
+  {
+    "UID": "888ae6c0-9317-341c-86a4-6bfdf09b72fa",
+    "Code": "CA-AB",
+    "Location": "Canada, Alberta",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "55.17",
+    "Longitude": "-114.5"
+  },
+  {
+    "UID": "391d04b7-aa3e-3b93-9d1f-4d14740ef5f7",
+    "Code": "CA-BC",
+    "Location": "Canada, British Columbia",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "54.74",
+    "Longitude": "-124.76"
+  },
+  {
+    "UID": "e2494db3-71b1-310e-bc75-5ff220d01c47",
+    "Code": "CA-MB",
+    "Location": "Canada, Manitoba",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "54.92",
+    "Longitude": "-97.43"
+  },
+  {
+    "UID": "aa44e6fb-24ea-30f5-9463-91346594e4e8",
+    "Code": "CA-NB",
+    "Location": "Canada, New Brunswick",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "46.61",
+    "Longitude": "-66.37"
+  },
+  {
+    "UID": "2d3a62fe-4d77-3861-9a5d-b0ba1452a7bc",
+    "Code": "CA-NF",
+    "Location": "Canada, Newfoundland and Labrador",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "52.89",
+    "Longitude": "-60.52"
+  },
+  {
+    "UID": "bef33c35-d56a-3154-a9e2-b20a11d7580f",
+    "Code": "CA-NT",
+    "Location": "Canada, Northwest Territories",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "66.36",
+    "Longitude": "-119"
+  },
+  {
+    "UID": "c4f314d4-d365-310d-89a0-42946be99544",
+    "Code": "CA-NS",
+    "Location": "Canada, Nova Scotia",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "45.15",
+    "Longitude": "-63.32"
+  },
+  {
+    "UID": "c290d478-7431-3b6d-8372-325203b55c32",
+    "Code": "CA-NU",
+    "Location": "Canada, Nunavut",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "71.03",
+    "Longitude": "-88.84"
+  },
+  {
+    "UID": "5bd185b8-bc04-31d4-8307-5955dc838694",
+    "Code": "CA-ON",
+    "Location": "Canada, Ontario",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "50.43",
+    "Longitude": "-86.06"
+  },
+  {
+    "UID": "24213e9e-14b7-3f9c-be7d-189643518a9d",
+    "Code": "CA-PE",
+    "Location": "Canada, Prince Edward Island",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "46.39",
+    "Longitude": "-63.25"
+  },
+  {
+    "UID": "11c42ab9-2538-3eb1-b665-6076cee71221",
+    "Code": "CA-YK",
+    "Location": "Canada, Yukon",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "63.63",
+    "Longitude": "-135.49"
+  },
+  {
+    "UID": "e7d76f14-42a7-3fc0-bec2-21a3f18683d1",
+    "Code": "Canary Islands",
+    "Location": "Canary Islands",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "28.33",
+    "Longitude": "-15.67"
+  },
+  {
+    "UID": "de3ec0aa-2234-3a1e-bee2-75bbc715c6c9",
+    "Code": "CV",
+    "Location": "Cape Verde",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "15.07",
+    "Longitude": "-23.63"
+  },
+  {
+    "UID": "288ea1e1-79de-3bc8-8a29-958f9857d9d1",
+    "Code": "UN-CARIBBEAN",
+    "Location": "Caribbean",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "20.15",
+    "Longitude": "-74.91"
+  },
+  {
+    "UID": "9e854e58-6592-3fe3-961f-e89d56220808",
+    "Code": "KY",
+    "Location": "Cayman Islands",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "19.31",
+    "Longitude": "-81.19"
+  },
+  {
+    "UID": "4e29342d-9904-364e-9e25-fd3b92558e2f",
+    "Code": "CF",
+    "Location": "Central African Republic",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "6.57",
+    "Longitude": "20.48"
+  },
+  {
+    "UID": "41f3dc5d-9734-339d-86ad-47fe2970dfe0",
+    "Code": "UN-CAMERICA",
+    "Location": "Central America",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "21.8",
+    "Longitude": "-99.25"
+  },
+  {
+    "UID": "8b6ba8a9-5220-3f57-8627-6e64a0f1cb40",
+    "Code": "EEU",
+    "Location": "Central and Eastern Europe",
+    "Description": "reference location, sources:  ecoinvent 3, ILCD, GaBi",
+    "Latitude": "0",
+    "Longitude": "0"
+  },
+  {
+    "UID": "f60425bb-5d9d-361c-8365-b042007676c0",
+    "Code": "Central Asia",
+    "Location": "Central Asia",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "45.91",
+    "Longitude": "66.48"
+  },
+  {
+    "UID": "35c302ef-c91c-31e9-a4e6-490bbe01a06f",
+    "Code": "CENTREL",
+    "Location": "Central European Power Association",
+    "Description": "reference location, sources:  ecoinvent 3, ILCD, GaBi",
+    "Latitude": "50.67",
+    "Longitude": "18.82"
+  },
+  {
+    "UID": "f114427f-29d0-3a63-9781-f1cc950e138e",
+    "Code": "CPA",
+    "Location": "Centrally Planned Asia and China",
+    "Description": "reference location, sources:  ILCD, GaBi",
+    "Latitude": "0",
+    "Longitude": "0"
+  },
+  {
+    "UID": "626726e6-0bd1-315f-b671-9a308a25b798",
+    "Code": "TD",
+    "Location": "Chad",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "15.36",
+    "Longitude": "18.66"
+  },
+  {
+    "UID": "161747ec-4dc9-355f-9760-195593742232",
+    "Code": "CL",
+    "Location": "Chile",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-23.38",
+    "Longitude": "-69.43"
+  },
+  {
+    "UID": "7efdfc94-655a-35dc-aa3e-c85e9bb703fa",
+    "Code": "CN",
+    "Location": "China",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "33.42",
+    "Longitude": "106.51"
+  },
+  {
+    "UID": "4c4a60a5-a0d5-369e-ad35-c23714845ace",
+    "Code": "CSG",
+    "Location": "China Southern Power Grid",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "24.56",
+    "Longitude": "106.46"
+  },
+  {
+    "UID": "b89fbb5e-5b12-3fbf-84e0-dde2a1af83e7",
+    "Code": "CN-AH",
+    "Location": "China, Anhui (安徽)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "31.82",
+    "Longitude": "117.22"
+  },
+  {
+    "UID": "0c3eee87-5877-3e08-bafd-45af750ca0b8",
+    "Code": "CN-BJ",
+    "Location": "China, Beijing (北京)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "40.17",
+    "Longitude": "116.4"
+  },
+  {
+    "UID": "560cccf0-0b87-306f-bffd-5836e1175a7a",
+    "Code": "CN-CQ",
+    "Location": "China, Chongqing (重庆)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "30.05",
+    "Longitude": "107.85"
+  },
+  {
+    "UID": "f15daa22-c911-3f89-ba04-2f020804afd5",
+    "Code": "CN-FJ",
+    "Location": "China, Fujian (福建)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "26.07",
+    "Longitude": "117.97"
+  },
+  {
+    "UID": "10a33d7b-6e2e-3aa5-8dee-a126f06ae6c1",
+    "Code": "CN-GS",
+    "Location": "China, Gansu (甘肃)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "37.82",
+    "Longitude": "100.92"
+  },
+  {
+    "UID": "e0da2e3f-1c41-368e-b7f1-d1aa54166975",
+    "Code": "CN-GD",
+    "Location": "China, Guangdong (广东)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "23.35",
+    "Longitude": "113.42"
+  },
+  {
+    "UID": "e66b9cb6-fca6-3058-b3fc-ab1eea7e2162",
+    "Code": "CN-GX",
+    "Location": "China, Guangxi (广西壮族自治区)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "23.83",
+    "Longitude": "108.77"
+  },
+  {
+    "UID": "a0e80568-b717-32ee-ac16-0fb0030b51cd",
+    "Code": "CN-GZ",
+    "Location": "China, Guizhou (贵州)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "26.81",
+    "Longitude": "106.87"
+  },
+  {
+    "UID": "c7439785-e07d-3db1-a531-12b8a73fb9c2",
+    "Code": "CN-HA",
+    "Location": "China, Hainan (海南)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "19.19",
+    "Longitude": "109.74"
+  },
+  {
+    "UID": "8f697344-3337-3a4d-a98b-fb261935fd20",
+    "Code": "CN-HB",
+    "Location": "China, Hebei (河北)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "39.55",
+    "Longitude": "116.12"
+  },
+  {
+    "UID": "e40e7f95-3d17-3bfe-bd65-a885f2088578",
+    "Code": "CN-HL",
+    "Location": "China, Heilongjiang (黑龙江省)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "47.87",
+    "Longitude": "127.74"
+  },
+  {
+    "UID": "37c4a9b5-5f7d-3238-bb72-4623cde79d2a",
+    "Code": "CN-HE",
+    "Location": "China, Henan (河南)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "33.88",
+    "Longitude": "113.6"
+  },
+  {
+    "UID": "60418cbc-6847-3b06-a830-253aa9bd9dba",
+    "Code": "CN-HU",
+    "Location": "China, Hubei (湖北)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "30.97",
+    "Longitude": "112.26"
+  },
+  {
+    "UID": "7bbc9d94-7ed7-3d7a-9953-f020aa8fa299",
+    "Code": "CN-HN",
+    "Location": "China, Hunan (湖南)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "27.61",
+    "Longitude": "111.69"
+  },
+  {
+    "UID": "94f8eaf5-2a69-3408-a868-564ba00a53e9",
+    "Code": "CN-NM",
+    "Location": "China, Inner Mongol (内蒙古自治区)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "44.08",
+    "Longitude": "113.9"
+  },
+  {
+    "UID": "1e9be3c3-b260-37d5-8199-be20ff6cc65f",
+    "Code": "CN-JS",
+    "Location": "China, Jiangsu (江苏)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "32.97",
+    "Longitude": "119.44"
+  },
+  {
+    "UID": "8f93bdbf-02dd-37f2-9c94-15b7adb0520c",
+    "Code": "CN-JX",
+    "Location": "China, Jiangxi (江西)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "27.61",
+    "Longitude": "115.71"
+  },
+  {
+    "UID": "5cb7fbc5-6a92-345e-9b8c-205b7d56e247",
+    "Code": "CN-JL",
+    "Location": "China, Jilin (吉林)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "43.67",
+    "Longitude": "126.17"
+  },
+  {
+    "UID": "b6c0a73a-ad7d-352e-a96f-0e22769d89d5",
+    "Code": "CN-LN",
+    "Location": "China, Liaoning (辽宁)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "41.29",
+    "Longitude": "122.61"
+  },
+  {
+    "UID": "fc88ecd5-d3d6-3669-a708-4b9a86e8907d",
+    "Code": "CN-NX",
+    "Location": "China, Ningxia (宁夏回族自治区)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "37.26",
+    "Longitude": "106.16"
+  },
+  {
+    "UID": "8091cd9d-b8ec-3623-a5a2-5b61ea85eb98",
+    "Code": "CN-QH",
+    "Location": "China, Qinghai (青海)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "35.74",
+    "Longitude": "96"
+  },
+  {
+    "UID": "442e473c-81d4-34e6-a31e-a13d33c939af",
+    "Code": "CN-SA",
+    "Location": "China, Shaanxi (陕西)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "35.18",
+    "Longitude": "108.86"
+  },
+  {
+    "UID": "21f95e96-39a6-3597-9376-f920757c6fb3",
+    "Code": "CN-SD",
+    "Location": "China, Shandong (山东)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "36.35",
+    "Longitude": "118.15"
+  },
+  {
+    "UID": "26f19341-0269-3662-9c33-6561ad91237f",
+    "Code": "CN-SH",
+    "Location": "China, Shanghai (上海)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "31.18",
+    "Longitude": "121.44"
+  },
+  {
+    "UID": "61ca6a75-802d-39f2-b7b3-09767d6389e0",
+    "Code": "CN-SX",
+    "Location": "China, Shanxi (山西)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "37.57",
+    "Longitude": "112.28"
+  },
+  {
+    "UID": "3ea7c4c6-7057-3b39-96e1-a3251dda63b2",
+    "Code": "CN-SC",
+    "Location": "China, Sichuan (四川)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "30.61",
+    "Longitude": "102.7"
+  },
+  {
+    "UID": "267b1b52-9830-3ddd-bce9-0be0b80a70ec",
+    "Code": "CN-TJ",
+    "Location": "China, Tianjin (天津)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "39.29",
+    "Longitude": "117.32"
+  },
+  {
+    "UID": "524dc282-e858-3e44-b59c-05a258bde0bd",
+    "Code": "CN-XJ",
+    "Location": "China, Xinjiang (新疆维吾尔自治区)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "41.09",
+    "Longitude": "85.18"
+  },
+  {
+    "UID": "7b09132e-4f69-3321-b69f-fbaafccb926a",
+    "Code": "CN-XZ",
+    "Location": "China, Xizang (西藏自治区)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "31.69",
+    "Longitude": "88.1"
+  },
+  {
+    "UID": "9825d889-e0ea-346a-8a60-09d9de7ad000",
+    "Code": "CN-YN",
+    "Location": "China, Yunnan (云南)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "24.97",
+    "Longitude": "101.47"
+  },
+  {
+    "UID": "e22dbdd9-06f5-3598-accc-59c8ff842535",
+    "Code": "CN-ZJ",
+    "Location": "China, Zhejiang (浙江)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "29.17",
+    "Longitude": "120.07"
+  },
+  {
+    "UID": "0bdff809-5c8b-31b3-8775-bf35547a1317",
+    "Code": "CX",
+    "Location": "Christmas Island",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-10.44",
+    "Longitude": "105.7"
+  },
+  {
+    "UID": "8c37ce4b-665f-30ac-abb4-0fd2a3c43b04",
+    "Code": "Churchill Falls",
+    "Location": "Churchill Falls Generating Station",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "53.52",
+    "Longitude": "-63.99"
+  },
+  {
+    "UID": "8f775bae-e910-3a54-8541-f4a49f87b2f2",
+    "Code": "Clipperton Island",
+    "Location": "Clipperton Island",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "10.29",
+    "Longitude": "-109.22"
+  },
+  {
+    "UID": "e0323a90-39ad-3297-8bf5-b49550572c7c",
+    "Code": "CC",
+    "Location": "Cocos (Keeling) Islands",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-12.17",
+    "Longitude": "96.83"
+  },
+  {
+    "UID": "ab6c0400-6660-3ef2-919d-512b21dce9ab",
+    "Code": "CO",
+    "Location": "Colombia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "3.9",
+    "Longitude": "-73.07"
+  },
+  {
+    "UID": "f9180cb9-286c-39c4-b3a6-c793798b9ddf",
+    "Code": "CIS",
+    "Location": "Commonwealth of Independent States",
+    "Description": "reference location, sources:  ecoinvent 3, ILCD, GaBi",
+    "Latitude": "45.81",
+    "Longitude": "59.08"
+  },
+  {
+    "UID": "9b05de73-d43f-3c4e-8111-0c6bcc5312bc",
+    "Code": "KM",
+    "Location": "Comoros",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-11.75",
+    "Longitude": "43.33"
+  },
+  {
+    "UID": "6e9cf3ee-f65d-3697-b96c-f33f27eb0f57",
+    "Code": "CG",
+    "Location": "Congo",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-0.05",
+    "Longitude": "15.98"
+  },
+  {
+    "UID": "6865aeb3-a9ed-38f9-a79e-c454b259e5d0",
+    "Code": "CD",
+    "Location": "Congo, the Democratic Republic of the",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-2.87",
+    "Longitude": "23.65"
+  },
+  {
+    "UID": "d5a5b3dd-1ccb-30d3-8360-f0c068fd43fc",
+    "Code": "CK",
+    "Location": "Cook Islands",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-21.21",
+    "Longitude": "-159.78"
+  },
+  {
+    "UID": "6bb17796-0cff-3545-9414-6bd0821b4560",
+    "Code": "Coral Sea Islands",
+    "Location": "Coral Sea Islands",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "-19.1",
+    "Longitude": "151.48"
+  },
+  {
+    "UID": "324d8a1d-3f81-3730-9509-9a48cee0c5b6",
+    "Code": "CR",
+    "Location": "Costa Rica",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "9.97",
+    "Longitude": "-83.94"
+  },
+  {
+    "UID": "adab7b70-1f23-3b82-814c-8506d3dc784e",
+    "Code": "HR",
+    "Location": "Croatia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "45.72",
+    "Longitude": "16.69"
+  },
+  {
+    "UID": "a4dbfd6a-ef3b-3045-be61-aa0146debdf8",
+    "Code": "CU",
+    "Location": "Cuba",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "21.29",
+    "Longitude": "-77.78"
+  },
+  {
+    "UID": "0707ba09-2e91-360b-b05c-326e6a353593",
+    "Code": "CW",
+    "Location": "Curaçao",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3",
+    "Latitude": "12.19",
+    "Longitude": "-68.97"
+  },
+  {
+    "UID": "471c1f3f-c1dd-3bb8-8d03-41b03e4be59e",
+    "Code": "CY",
+    "Location": "Cyprus",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "35.04",
+    "Longitude": "33.21"
+  },
+  {
+    "UID": "b40feb9f-0afa-3eab-9c03-5085ecbbb908",
+    "Code": "Cyprus No Mans Area",
+    "Location": "Cyprus No Mans Area",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "35.1",
+    "Longitude": "33.25"
+  },
+  {
+    "UID": "9c049173-fad5-34f8-9c68-231237df85b8",
+    "Code": "CZ",
+    "Location": "Czech Republic",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "49.74",
+    "Longitude": "15.33"
+  },
+  {
+    "UID": "35ea51ba-f1fe-3f01-82ad-5f950855dde0",
+    "Code": "CI",
+    "Location": "Côte d'Ivoire",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "7.63",
+    "Longitude": "-5.55"
+  },
+  {
+    "UID": "0ecbf942-6bcf-3d9a-886d-ed5fc8c4eca8",
+    "Code": "DK",
+    "Location": "Denmark",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "56.05",
+    "Longitude": "9.26"
+  },
+  {
+    "UID": "2a552811-5dc6-3462-a113-dda562233bd7",
+    "Code": "Dhekelia Base",
+    "Location": "Dhekelia Sovereign Base Area",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "35.01",
+    "Longitude": "33.79"
+  },
+  {
+    "UID": "64ca6097-2a6e-3926-91c4-b9d31080c687",
+    "Code": "DJ",
+    "Location": "Djibouti",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "11.9",
+    "Longitude": "42.51"
+  },
+  {
+    "UID": "608e7dc1-16de-3157-b060-12b4f0be82ac",
+    "Code": "DM",
+    "Location": "Dominica",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "15.47",
+    "Longitude": "-61.35"
+  },
+  {
+    "UID": "d4579b26-88d6-3523-9f40-2f6b4b43bcbf",
+    "Code": "DO",
+    "Location": "Dominican Republic",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "19.01",
+    "Longitude": "-70.72"
+  },
+  {
+    "UID": "e110324f-3d3c-3394-a6f8-f87e742dcaa4",
+    "Code": "UN-EAFRICA",
+    "Location": "Eastern Africa",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "-5.5",
+    "Longitude": "37.09"
+  },
+  {
+    "UID": "95b09ece-0ccc-3fa4-89f0-ef29d63c6dbe",
+    "Code": "UN-EASIA",
+    "Location": "Eastern Asia",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "38.21",
+    "Longitude": "105.25"
+  },
+  {
+    "UID": "db28a51a-61d7-3b0b-bb5c-a1c0a25db72e",
+    "Code": "UN-EEUROPE",
+    "Location": "Eastern Europe",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "60.98",
+    "Longitude": "92.13"
+  },
+  {
+    "UID": "2f53e6f3-f2ac-3041-a4e0-737e58c45321",
+    "Code": "EC",
+    "Location": "Ecuador",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-1.38",
+    "Longitude": "-78.49"
+  },
+  {
+    "UID": "2a6a84e9-e444-31af-bd75-cc19ce28be37",
+    "Code": "EG",
+    "Location": "Egypt",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "26.49",
+    "Longitude": "29.87"
+  },
+  {
+    "UID": "74354112-1c12-3113-af80-7d1582c74bea",
+    "Code": "SV",
+    "Location": "El Salvador",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "13.73",
+    "Longitude": "-88.86"
+  },
+  {
+    "UID": "679f547e-8973-3198-9562-f49522f5f5ac",
+    "Code": "ERCOT",
+    "Location": "Electric Reliability Council of Texas",
+    "Description": "reference location, sources: DataSmart",
+    "Latitude": "31.1",
+    "Longitude": "-97.64"
+  },
+  {
+    "UID": "b84a1ed8-db3d-3bf3-b8f4-9becdea153b2",
+    "Code": "GQ",
+    "Location": "Equatorial Guinea",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "1.6",
+    "Longitude": "10.48"
+  },
+  {
+    "UID": "818f9c45-cfa3-3eef-b277-ef38bcbe9910",
+    "Code": "ER",
+    "Location": "Eritrea",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "16.04",
+    "Longitude": "38.21"
+  },
+  {
+    "UID": "08a4415e-9d59-3ff9-a003-0b921d42b91e",
+    "Code": "EE",
+    "Location": "Estonia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "58.67",
+    "Longitude": "25.79"
+  },
+  {
+    "UID": "4de1b7a4-dc53-34a8-8c25-ffb7cdb580ee",
+    "Code": "ET",
+    "Location": "Ethiopia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "8.62",
+    "Longitude": "39.61"
+  },
+  {
+    "UID": "c1717bc2-161f-3b18-90d6-80e24878d689",
+    "Code": "EU-15",
+    "Location": "EU 15",
+    "Description": "reference location, sources:  ILCD, GaBi",
+    "Latitude": "50",
+    "Longitude": "4.66"
+  },
+  {
+    "UID": "80e68c50-5cf3-3f11-b809-f8cfbd9a4b17",
+    "Code": "EU-25&CC",
+    "Location": "EU 25 plus candidate countries 2005",
+    "Description": "reference location, sources:  ILCD, GaBi",
+    "Latitude": "49",
+    "Longitude": "14.51"
+  },
+  {
+    "UID": "d5ef8373-2ea8-3c9b-9fb5-4f8cb68a9714",
+    "Code": "EU-25&CC&AC",
+    "Location": "EU 25 plus candidate countries 2005 plus associated countries 2005",
+    "Description": "reference location, sources:  ILCD, GaBi",
+    "Latitude": "0",
+    "Longitude": "0"
+  },
+  {
+    "UID": "322eb489-99c8-380b-8870-87c8d2e958a2",
+    "Code": "EU-27&CC",
+    "Location": "EU 27 plus candidate countries 2007",
+    "Description": "reference location, sources: ILCD",
+    "Latitude": "0",
+    "Longitude": "0"
+  },
+  {
+    "UID": "aef4c4e7-71b3-3811-876f-5a31fbf8eb0e",
+    "Code": "EU-27&CC&AC",
+    "Location": "EU 27 plus candidate countries 2007 plus associated countries 2007",
+    "Description": "reference location, sources: ILCD",
+    "Latitude": "0",
+    "Longitude": "0"
+  },
+  {
+    "UID": "9813077a-1292-3b9e-9da5-bd55fa33ecb6",
+    "Code": "EU-AC",
+    "Location": "EU associated countries 2005",
+    "Description": "reference location, sources:  ILCD, GaBi",
+    "Latitude": "55.33",
+    "Longitude": "3.72"
+  },
+  {
+    "UID": "b3c26978-fa5b-3e96-998d-3d5eb0cce441",
+    "Code": "EU-AC2007",
+    "Location": "EU associated countries 2007",
+    "Description": "reference location, sources: ILCD",
+    "Latitude": "0",
+    "Longitude": "0"
+  },
+  {
+    "UID": "1a88a0a3-7c7f-3bac-96c8-988fe871a18d",
+    "Code": "EC-CC",
+    "Location": "EU candidate countries 2005",
+    "Description": "reference location, sources:  ILCD, GaBi",
+    "Latitude": "46.39",
+    "Longitude": "20.38"
+  },
+  {
+    "UID": "0273c379-31a2-34e3-9d4a-351b4c0f4ef2",
+    "Code": "EC-CC2007",
+    "Location": "EU candidate countries 2007",
+    "Description": "reference location, sources: ILCD",
+    "Latitude": "0",
+    "Longitude": "0"
+  },
+  {
+    "UID": "1981f919-7ad2-31d5-8748-b520285f6323",
+    "Code": "EU-NMC",
+    "Location": "EU new member countries 2004",
+    "Description": "reference location, sources:  ILCD, GaBi",
+    "Latitude": "48.7",
+    "Longitude": "20.95"
+  },
+  {
+    "UID": "70262596-fdf2-327d-b787-12fb738a9270",
+    "Code": "EU-25",
+    "Location": "EU-25",
+    "Description": "reference location, sources:  ILCD, GaBi",
+    "Latitude": "50.52",
+    "Longitude": "7.59"
+  },
+  {
+    "UID": "5c7f219e-57db-3579-a019-27fb8995651b",
+    "Code": "EU-27",
+    "Location": "EU-27",
+    "Description": "reference location, sources:  ILCD, GaBi",
+    "Latitude": "50.17",
+    "Longitude": "9.15"
+  },
+  {
+    "UID": "d66c264e-1dbd-33e6-911d-3ffc70908e8e",
+    "Code": "RER",
+    "Location": "Europe",
+    "Description": "reference location, sources:  ecoinvent 3, ILCD, GaBi",
+    "Latitude": "54.75",
+    "Longitude": "15.24"
+  },
+  {
+    "UID": "c93762d2-a7a3-335c-81c2-fa0be65506df",
+    "Code": "Europe with NORDEL (NCPA)",
+    "Location": "Europe with NORDEL (NCPA)",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "54.06",
+    "Longitude": "29.67"
+  },
+  {
+    "UID": "06e2458b-3178-3438-b3f4-84051244c27d",
+    "Code": "RER w/o AT+BE+CH+DE+FR+IT",
+    "Location": "Europe without Austria, Belgium, France, Germany, Italy, Liechtenstein, Monaco, San Marino, Switzerland, and the Vatican",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "56.97",
+    "Longitude": "30.73"
+  },
+  {
+    "UID": "817ed804-f0ed-3175-b39d-7576a1c242b1",
+    "Code": "Europe without Switzerland",
+    "Location": "Europe without Switzerland",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "48.59",
+    "Longitude": "6.42"
+  },
+  {
+    "UID": "1e11ad8e-d46d-368b-9ef5-a43e99dec543",
+    "Code": "UN-EUROPE",
+    "Location": "Europe, UN Region",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "54.75",
+    "Longitude": "15.24"
+  },
+  {
+    "UID": "73ecfbb1-f6be-3c1e-b05a-aca2cb5b216d",
+    "Code": "Europe, without Russia and Turkey",
+    "Location": "Europe, without Russia and Turkey",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "53.26",
+    "Longitude": "14.59"
+  },
+  {
+    "UID": "8ebf61e1-cf59-357c-b93d-225d0ccb7181",
+    "Code": "ENTSO-E",
+    "Location": "European Network of Transmission Systems Operators for Electricity",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "49.75",
+    "Longitude": "13.56"
+  },
+  {
+    "UID": "ef1cb6e7-2d14-3b18-8cc2-41037203f60b",
+    "Code": "FK",
+    "Location": "Falkland Islands (Malvinas)",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-51.66",
+    "Longitude": "-58.69"
+  },
+  {
+    "UID": "eed80702-4939-3808-883f-0031a56e9872",
+    "Code": "FO",
+    "Location": "Faroe Islands",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "62.05",
+    "Longitude": "-6.86"
+  },
+  {
+    "UID": "6fac3ab6-03bb-3fb4-ae42-77786393194c",
+    "Code": "FJ",
+    "Location": "Fiji",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-17.81",
+    "Longitude": "177.97"
+  },
+  {
+    "UID": "75778bf8-fde7-366d-816b-0089e7b8b793",
+    "Code": "FI",
+    "Location": "Finland",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "64.5",
+    "Longitude": "26.27"
+  },
+  {
+    "UID": "d1e780c1-ae55-3086-82ed-b9f568342c46",
+    "Code": "FRCC",
+    "Location": "Florida Reliability Coordinating Council",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "28.32",
+    "Longitude": "-81.89"
+  },
+  {
+    "UID": "190aeb66-f132-3e93-995a-70e36f3431c5",
+    "Code": "FSU",
+    "Location": "Former Soviet Union",
+    "Description": "reference location, sources:  ILCD, GaBi",
+    "Latitude": "47.5",
+    "Longitude": "49.29"
+  },
+  {
+    "UID": "82a9e4d2-6595-387a-b6e4-42391d8c5bba",
+    "Code": "FR",
+    "Location": "France",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "46.56",
+    "Longitude": "2.55"
+  },
+  {
+    "UID": "c4f57fe2-5b64-3193-8cfd-d118f11e9024",
+    "Code": "France, including overseas territories",
+    "Location": "France, including overseas territories",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "42.18",
+    "Longitude": "-2.75"
+  },
+  {
+    "UID": "e5bb2379-7bfe-3314-a3db-43d07dbd6a74",
+    "Code": "GF",
+    "Location": "French Guiana",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "3.92",
+    "Longitude": "-53.24"
+  },
+  {
+    "UID": "7287aa2c-53d0-3440-9a9d-b5614937e36f",
+    "Code": "PF",
+    "Location": "French Polynesia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-17.62",
+    "Longitude": "-149.46"
+  },
+  {
+    "UID": "114d6a41-5b3d-34db-b92c-a7c0da0c7a55",
+    "Code": "TF",
+    "Location": "French Southern Territories",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-49.3",
+    "Longitude": "69.11"
+  },
+  {
+    "UID": "32d7508f-e692-30cb-80af-28441ef746d9",
+    "Code": "GA",
+    "Location": "Gabon",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-0.59",
+    "Longitude": "11.79"
+  },
+  {
+    "UID": "92073d2f-e26e-343c-a222-cc0fb0b7d7a0",
+    "Code": "GM",
+    "Location": "Gambia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "13.45",
+    "Longitude": "-15.38"
+  },
+  {
+    "UID": "0ba64a0d-ea00-3479-96df-b6a66866e1ca",
+    "Code": "GE",
+    "Location": "Georgia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "42.17",
+    "Longitude": "43.51"
+  },
+  {
+    "UID": "5f02f088-9301-3d7b-a1ac-972c11bf3e7d",
+    "Code": "DE",
+    "Location": "Germany",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "51.11",
+    "Longitude": "9.85"
+  },
+  {
+    "UID": "19b19ffc-30ca-3f1c-9376-cd2982992a59",
+    "Code": "GH",
+    "Location": "Ghana",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "7.96",
+    "Longitude": "-1.2"
+  },
+  {
+    "UID": "28dd376c-5a44-3cc9-ae45-0ee338260c56",
+    "Code": "GI",
+    "Location": "Gibraltar",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "36.13",
+    "Longitude": "-5.34"
+  },
+  {
+    "UID": "56bca136-90bb-3a77-9abb-7ce558af711e",
+    "Code": "GLO",
+    "Location": "Global",
+    "Description": "reference location, sources:  ecoinvent 3, ILCD, GaBi",
+    "Latitude": "0",
+    "Longitude": "0"
+  },
+  {
+    "UID": "d692bc40-d834-33d2-8d3a-37582f58468c",
+    "Code": "GR",
+    "Location": "Greece",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "39.66",
+    "Longitude": "21.76"
+  },
+  {
+    "UID": "ce1d5a24-80e0-34a2-91c1-c7968cc66c13",
+    "Code": "GL",
+    "Location": "Greenland",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "74.71",
+    "Longitude": "-41.39"
+  },
+  {
+    "UID": "a6be8a33-b7c9-37f4-bfb7-6d9c9805c7eb",
+    "Code": "GD",
+    "Location": "Grenada",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "12.11",
+    "Longitude": "-61.67"
+  },
+  {
+    "UID": "5343b21a-d303-3f17-9962-9894deca13db",
+    "Code": "GP",
+    "Location": "Guadeloupe",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "16.28",
+    "Longitude": "-61.44"
+  },
+  {
+    "UID": "d2a460df-08a4-3b7a-958f-635b540d90cb",
+    "Code": "GU",
+    "Location": "Guam",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "13.38",
+    "Longitude": "144.7"
+  },
+  {
+    "UID": "1bfad22f-0925-378f-b10a-37440bfdff43",
+    "Code": "GT",
+    "Location": "Guatemala",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "15.25",
+    "Longitude": "-90.39"
+  },
+  {
+    "UID": "73c18c59-a39b-3838-a081-ec00bb456d43",
+    "Code": "GG",
+    "Location": "Guernsey",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3",
+    "Latitude": "49.45",
+    "Longitude": "-2.57"
+  },
+  {
+    "UID": "5123dd8b-087b-344f-9b8f-8603acd1bad4",
+    "Code": "GN",
+    "Location": "Guinea",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "10.43",
+    "Longitude": "-10.94"
+  },
+  {
+    "UID": "3f071f4f-163d-3855-9f4f-c1544c7f69a6",
+    "Code": "GW",
+    "Location": "Guinea-Bissau",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "12.12",
+    "Longitude": "-14.65"
+  },
+  {
+    "UID": "5e08be98-8691-354c-937b-997b4cb6ad97",
+    "Code": "GY",
+    "Location": "Guyana",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "4.79",
+    "Longitude": "-58.97"
+  },
+  {
+    "UID": "eb5e48e7-4123-3acc-9276-1302ea4a7d22",
+    "Code": "HT",
+    "Location": "Haiti",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "19.14",
+    "Longitude": "-72.27"
+  },
+  {
+    "UID": "2ab5564b-805d-3065-b4bc-f81060472746",
+    "Code": "HM",
+    "Location": "Heard Island and McDonald Islands",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-53.11",
+    "Longitude": "73.5"
+  },
+  {
+    "UID": "add33b5c-114e-39e1-8996-ebe46366c661",
+    "Code": "HICC",
+    "Location": "HICC",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "20.25",
+    "Longitude": "-156.35"
+  },
+  {
+    "UID": "43b1cc1d-b7be-33d8-99dd-4280f578691a",
+    "Code": "VA",
+    "Location": "Holy See (Vatican City State)",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "41.9",
+    "Longitude": "12.45"
+  },
+  {
+    "UID": "59ca4f8b-bb97-33c2-ab59-db115fcdb664",
+    "Code": "HN",
+    "Location": "Honduras",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "14.81",
+    "Longitude": "-86.86"
+  },
+  {
+    "UID": "ae417185-6a75-37b6-bd51-fc0e1f95902e",
+    "Code": "HK",
+    "Location": "Hong Kong",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "22.42",
+    "Longitude": "114.12"
+  },
+  {
+    "UID": "18bd9197-cb1d-333b-8352-f47535c00320",
+    "Code": "HU",
+    "Location": "Hungary",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "47.07",
+    "Longitude": "19.13"
+  },
+  {
+    "UID": "60a4d810-df1e-3895-95b4-025bbedca798",
+    "Code": "IAI Area 4&5, without China",
+    "Location": "IAI producing Area 4 and 5, South and East Asia, without China",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "30.77",
+    "Longitude": "76.42"
+  },
+  {
+    "UID": "a2a551a6-458a-3de2-a446-cc76d639a9e9",
+    "Code": "IS",
+    "Location": "Iceland",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "64.76",
+    "Longitude": "-18.48"
+  },
+  {
+    "UID": "13b5bfe9-6f3e-3fe4-91c9-f66f4a582adf",
+    "Code": "IN",
+    "Location": "India",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "21",
+    "Longitude": "78.5"
+  },
+  {
+    "UID": "14b3773a-9228-3ca1-98e3-3d0017100d23",
+    "Code": "AUS-IOT",
+    "Location": "Indian Ocean Territories",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "-10.69",
+    "Longitude": "104.61"
+  },
+  {
+    "UID": "b80bb774-0288-3da1-b201-890375a60c8f",
+    "Code": "ID",
+    "Location": "Indonesia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-0.97",
+    "Longitude": "114.25"
+  },
+  {
+    "UID": "d74eea48-99a6-3f9f-8bc5-27ef988ea0ff",
+    "Code": "IR",
+    "Location": "Iran, Islamic Republic of",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "32.56",
+    "Longitude": "54.3"
+  },
+  {
+    "UID": "795237fd-9d10-3e63-8d19-b0db0f2fba2f",
+    "Code": "IQ",
+    "Location": "Iraq",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "33.04",
+    "Longitude": "43.77"
+  },
+  {
+    "UID": "25400724-d737-3b0b-a9c9-369d9af3dd21",
+    "Code": "IE",
+    "Location": "Ireland",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "53.17",
+    "Longitude": "-8.15"
+  },
+  {
+    "UID": "73bebce3-95b6-31ef-adcf-6842fbdb4d76",
+    "Code": "IM",
+    "Location": "Isle of Man",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3",
+    "Latitude": "54.22",
+    "Longitude": "-4.52"
+  },
+  {
+    "UID": "4605f628-f91d-321e-8b5f-9433f46e29eb",
+    "Code": "IL",
+    "Location": "Israel",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "31.02",
+    "Longitude": "34.85"
+  },
+  {
+    "UID": "0d149b90-e739-3297-b01c-90191ae775f0",
+    "Code": "IT",
+    "Location": "Italy",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "42.7",
+    "Longitude": "12.8"
+  },
+  {
+    "UID": "3da770cc-56ed-3407-b6aa-f10ad4e72b4d",
+    "Code": "JM",
+    "Location": "Jamaica",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "18.15",
+    "Longitude": "-77.32"
+  },
+  {
+    "UID": "55add3d8-45bf-3d87-a9b0-949b0da49c0a",
+    "Code": "JP",
+    "Location": "Japan",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "36.49",
+    "Longitude": "139.06"
+  },
+  {
+    "UID": "79563e90-630a-3352-9dff-01b6638b0886",
+    "Code": "JE",
+    "Location": "Jersey",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3",
+    "Latitude": "49.21",
+    "Longitude": "-2.12"
+  },
+  {
+    "UID": "674f3384-1e23-39ff-9d24-c85dc3b999de",
+    "Code": "JO",
+    "Location": "Jordan",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "30.7",
+    "Longitude": "36.31"
+  },
+  {
+    "UID": "9008f9e2-758f-38fe-920b-1765e72734d5",
+    "Code": "KZ",
+    "Location": "Kazakhstan",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "48.16",
+    "Longitude": "67.3"
+  },
+  {
+    "UID": "25bc6654-798e-3508-ba0b-6343212a74fe",
+    "Code": "KE",
+    "Location": "Kenya",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "0.53",
+    "Longitude": "37.85"
+  },
+  {
+    "UID": "988287f7-a1eb-366f-bc4e-19bdbdeec7c3",
+    "Code": "KI",
+    "Location": "Kiribati",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-1.5",
+    "Longitude": "175.03"
+  },
+  {
+    "UID": "26b568e4-192a-364d-9b3e-acdbd632bc2e",
+    "Code": "KP",
+    "Location": "Korea, Democratic People's Republic of",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "39.77",
+    "Longitude": "126.45"
+  },
+  {
+    "UID": "dcf0d7d2-cd12-3bf4-a580-d43f29785dd3",
+    "Code": "KR",
+    "Location": "Korea, Republic of",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "36.5",
+    "Longitude": "128.1"
+  },
+  {
+    "UID": "a2d8fced-03cb-3e20-af8e-1226935c9c92",
+    "Code": "XK",
+    "Location": "Kosovo",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "42.57",
+    "Longitude": "20.87"
+  },
+  {
+    "UID": "048685d9-6262-3854-82a1-d5bb4a14bc3b",
+    "Code": "KW",
+    "Location": "Kuwait",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "29.47",
+    "Longitude": "47.37"
+  },
+  {
+    "UID": "ebe86682-666f-3ab3-9a08-43ed3097e4b3",
+    "Code": "KG",
+    "Location": "Kyrgyzstan",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "41.46",
+    "Longitude": "74.55"
+  },
+  {
+    "UID": "c9089f3c-9ada-3018-af6f-fb1ee8d6501c",
+    "Code": "LA",
+    "Location": "Lao People's Democratic Republic",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "19.9",
+    "Longitude": "102.47"
+  },
+  {
+    "UID": "84502834-6281-3742-9577-a349ea768503",
+    "Code": "RLA",
+    "Location": "Latin America and the Caribbean",
+    "Description": "reference location, sources:  ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-10.11",
+    "Longitude": "-65.62"
+  },
+  {
+    "UID": "85d1a9c4-88d7-317e-a862-91a755e5d43c",
+    "Code": "LV",
+    "Location": "Latvia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "56.85",
+    "Longitude": "25.64"
+  },
+  {
+    "UID": "26403ec6-d537-3a31-b63e-294b44831734",
+    "Code": "LB",
+    "Location": "Lebanon",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "33.92",
+    "Longitude": "35.88"
+  },
+  {
+    "UID": "44ba5ca6-5651-34f3-af19-27576dd35436",
+    "Code": "LS",
+    "Location": "Lesotho",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-29.58",
+    "Longitude": "28.24"
+  },
+  {
+    "UID": "58791f32-2c1b-3c3d-a614-1788d3b8666f",
+    "Code": "LR",
+    "Location": "Liberia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "6.68",
+    "Longitude": "-9.65"
+  },
+  {
+    "UID": "e728b477-51c6-3559-82cb-60f97d1e4553",
+    "Code": "LY",
+    "Location": "Libya",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "27.04",
+    "Longitude": "18.02"
+  },
+  {
+    "UID": "d70c1e5d-44de-3a91-90eb-91ecff563578",
+    "Code": "LI",
+    "Location": "Liechtenstein",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "47.15",
+    "Longitude": "9.55"
+  },
+  {
+    "UID": "d91af695-8918-3f87-96a0-57c1cdf5b225",
+    "Code": "LT",
+    "Location": "Lithuania",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "55.33",
+    "Longitude": "23.89"
+  },
+  {
+    "UID": "3e7e122b-f08f-3843-ac96-1ba491089dc9",
+    "Code": "LU",
+    "Location": "Luxembourg",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "49.77",
+    "Longitude": "6.08"
+  },
+  {
+    "UID": "27c9d518-7cd2-33f8-9160-ec1ed2b5ac89",
+    "Code": "MO",
+    "Location": "Macao",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "22.2",
+    "Longitude": "113.54"
+  },
+  {
+    "UID": "07d93568-0b65-31b2-a42f-e4baea021389",
+    "Code": "MK",
+    "Location": "Macedonia, The Former Yugoslav Republic of",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "41.59",
+    "Longitude": "21.69"
+  },
+  {
+    "UID": "b351bb9b-0af6-34fc-a787-49675c53ad67",
+    "Code": "MG",
+    "Location": "Madagascar",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-19.37",
+    "Longitude": "46.7"
+  },
+  {
+    "UID": "38fed710-7cee-3580-98ca-06304c1beb90",
+    "Code": "MW",
+    "Location": "Malawi",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-13.4",
+    "Longitude": "33.8"
+  },
+  {
+    "UID": "6864f389-d987-3436-bc87-78ff071d1b6c",
+    "Code": "MY",
+    "Location": "Malaysia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "4.2",
+    "Longitude": "102.19"
+  },
+  {
+    "UID": "94d03594-5b3d-3218-a669-c4d3f6daa104",
+    "Code": "MV",
+    "Location": "Maldives",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "3.54",
+    "Longitude": "72.92"
+  },
+  {
+    "UID": "9830e1f8-1f62-3b33-906a-cc186b93374e",
+    "Code": "ML",
+    "Location": "Mali",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "17.35",
+    "Longitude": "-3.52"
+  },
+  {
+    "UID": "710998fd-1b7c-3235-9702-65650770a4b1",
+    "Code": "MT",
+    "Location": "Malta",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "35.89",
+    "Longitude": "14.44"
+  },
+  {
+    "UID": "ed8f5b7e-7439-3143-b43a-93dc753618ae",
+    "Code": "MH",
+    "Location": "Marshall Islands",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "7.59",
+    "Longitude": "168.96"
+  },
+  {
+    "UID": "1d8a4975-693e-31eb-9ca5-4878098d608f",
+    "Code": "MQ",
+    "Location": "Martinique",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "14.65",
+    "Longitude": "-61.02"
+  },
+  {
+    "UID": "d9394066-970e-34ae-a52f-d0347e58c03e",
+    "Code": "MR",
+    "Location": "Mauritania",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "20.26",
+    "Longitude": "-10.33"
+  },
+  {
+    "UID": "89aa4b19-6b48-38a1-ba65-49bb1eaebd80",
+    "Code": "MU",
+    "Location": "Mauritius",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-20.25",
+    "Longitude": "57.58"
+  },
+  {
+    "UID": "fa0ed5b5-c600-345b-9d9a-299952b99651",
+    "Code": "YT",
+    "Location": "Mayotte",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-12.77",
+    "Longitude": "45.15"
+  },
+  {
+    "UID": "9c7e385f-c425-3258-a571-a94454d24b2b",
+    "Code": "UN-MELANESIA",
+    "Location": "Melanesia",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "-7.79",
+    "Longitude": "147.87"
+  },
+  {
+    "UID": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+    "Code": "MX",
+    "Location": "Mexico",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "23.95",
+    "Longitude": "-102.53"
+  },
+  {
+    "UID": "11a4769f-1f94-3ef6-9be6-a120cd4e3e67",
+    "Code": "UN-MICRONESIA",
+    "Location": "Micronesia",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "7.54",
+    "Longitude": "94.38"
+  },
+  {
+    "UID": "0ab34ca9-7d99-3659-9bf8-9817789cb5de",
+    "Code": "FM",
+    "Location": "Micronesia, Federated States of",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "6.88",
+    "Longitude": "158.23"
+  },
+  {
+    "UID": "e71864bf-656a-3133-8489-a428120c0ada",
+    "Code": "UN-MAFRICA",
+    "Location": "Middle Africa",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "0.63",
+    "Longitude": "19.47"
+  },
+  {
+    "UID": "4b24ca1d-6a54-335b-811e-38a32aaa0967",
+    "Code": "RME",
+    "Location": "Middle East",
+    "Description": "reference location, sources:  ecoinvent 3, ILCD, GaBi",
+    "Latitude": "28.54",
+    "Longitude": "48.66"
+  },
+  {
+    "UID": "483bbc62-bf06-31a1-9aca-efa0a24e2f1e",
+    "Code": "MEA",
+    "Location": "Middle East and North Africa",
+    "Description": "reference location, sources:  ILCD, GaBi",
+    "Latitude": "28.63",
+    "Longitude": "34.24"
+  },
+  {
+    "UID": "cda0fd29-18d1-3e20-ac87-1ed79a8d2bb0",
+    "Code": "MRO",
+    "Location": "Midwest Reliability Organization",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "50.58",
+    "Longitude": "-99.64"
+  },
+  {
+    "UID": "8ce8d793-183f-312a-a33c-5c61ec31edb6",
+    "Code": "Midwest Reliability Organization (USA)",
+    "Location": "Midwest Reliability Organization (USA)",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "44.82",
+    "Longitude": "-96.82"
+  },
+  {
+    "UID": "793914c9-c583-39d8-ad0f-4ed8c521b0c1",
+    "Code": "MD",
+    "Location": "Moldova, Republic of",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "47.19",
+    "Longitude": "28.59"
+  },
+  {
+    "UID": "d6fd0924-e324-3506-a9ae-0295adf59567",
+    "Code": "MC",
+    "Location": "Monaco",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "43.75",
+    "Longitude": "7.41"
+  },
+  {
+    "UID": "41256636-7c67-348b-999d-1b7666f8ccfc",
+    "Code": "MN",
+    "Location": "Mongolia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "46.05",
+    "Longitude": "102.87"
+  },
+  {
+    "UID": "ab86a1e1-ef70-3ff9-b959-067b723c5c24",
+    "Code": "ME",
+    "Location": "Montenegro",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3",
+    "Latitude": "42.79",
+    "Longitude": "19.25"
+  },
+  {
+    "UID": "ee33e909-372d-335d-990f-4fcb2a92d542",
+    "Code": "MS",
+    "Location": "Montserrat",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "16.73",
+    "Longitude": "-62.18"
+  },
+  {
+    "UID": "b74df323-e393-3b56-b635-a2cba7a7afba",
+    "Code": "MA",
+    "Location": "Morocco",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "32.7",
+    "Longitude": "-5.75"
+  },
+  {
+    "UID": "4f3dd0ff-b3e4-3c5f-b4b5-b0d8c1f10bb5",
+    "Code": "MZ",
+    "Location": "Mozambique",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-14.42",
+    "Longitude": "37.92"
+  },
+  {
+    "UID": "b3cd915d-7580-38bd-99d0-f2428fbb354a",
+    "Code": "MM",
+    "Location": "Myanmar",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "21.71",
+    "Longitude": "96.04"
+  },
+  {
+    "UID": "6ec66e12-4fb9-3c19-8e92-07b0b82f542a",
+    "Code": "NA",
+    "Location": "Namibia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-22.13",
+    "Longitude": "17.21"
+  },
+  {
+    "UID": "0ab3e5d0-801a-3a3f-b758-bcbd812e8f10",
+    "Code": "NR",
+    "Location": "Nauru",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-0.52",
+    "Longitude": "166.93"
+  },
+  {
+    "UID": "40590d3d-1a34-3650-81f5-e48b08ef2096",
+    "Code": "RNE",
+    "Location": "Near East",
+    "Description": "reference location, sources:  ILCD, GaBi",
+    "Latitude": "33.72",
+    "Longitude": "39.81"
+  },
+  {
+    "UID": "cf3fc916-339b-32ad-9c14-aca2425ccf53",
+    "Code": "NP",
+    "Location": "Nepal",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "28.25",
+    "Longitude": "83.93"
+  },
+  {
+    "UID": "1a13105b-7e4e-35fb-ae7c-9515ac06aa48",
+    "Code": "NL",
+    "Location": "Netherlands",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "52.07",
+    "Longitude": "5.38"
+  },
+  {
+    "UID": "18b049cc-8d85-3578-b929-df716f9f4e68",
+    "Code": "AN",
+    "Location": "Netherlands Antilles",
+    "Description": "reference location, sources:  ILCD, GaBi",
+    "Latitude": "12.12",
+    "Longitude": "-68.87"
+  },
+  {
+    "UID": "1e734284-5e24-3b3b-9b35-54490da1c128",
+    "Code": "NC",
+    "Location": "New Caledonia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-21.35",
+    "Longitude": "165.44"
+  },
+  {
+    "UID": "5c0f2c74-2dc9-3fce-b75d-086e7412f81f",
+    "Code": "AUS-NSW",
+    "Location": "New South Wales",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "-32.16",
+    "Longitude": "147.01"
+  },
+  {
+    "UID": "c97b334f-fd41-3a49-9708-3f1949632bc1",
+    "Code": "NZ",
+    "Location": "New Zealand",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-42.63",
+    "Longitude": "172.23"
+  },
+  {
+    "UID": "e6c151d4-49e1-3b05-b1ff-b5ad5ec656cf",
+    "Code": "NI",
+    "Location": "Nicaragua",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "12.84",
+    "Longitude": "-85.03"
+  },
+  {
+    "UID": "d4f91763-3649-33c4-bc7a-b917fa990146",
+    "Code": "NE",
+    "Location": "Niger",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "17.42",
+    "Longitude": "9.39"
+  },
+  {
+    "UID": "66e10e9f-f65e-3479-a54d-de3968d3440d",
+    "Code": "NG",
+    "Location": "Nigeria",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "9.59",
+    "Longitude": "8.1"
+  },
+  {
+    "UID": "0288bde0-c2d5-33f2-b576-6f61b826a650",
+    "Code": "NU",
+    "Location": "Niue",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-19.05",
+    "Longitude": "-169.86"
+  },
+  {
+    "UID": "4205164e-e2e5-30d6-98fb-7657af40aed6",
+    "Code": "NORDEL",
+    "Location": "Nordic Countries Power Association",
+    "Description": "reference location, sources:  ecoinvent 3, ILCD, GaBi",
+    "Latitude": "63.76",
+    "Longitude": "18.88"
+  },
+  {
+    "UID": "78d9238c-1a21-3c8b-be8f-6c26172fb12d",
+    "Code": "NF",
+    "Location": "Norfolk Island",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-29.03",
+    "Longitude": "167.95"
+  },
+  {
+    "UID": "16096b94-483a-3671-b7a2-16db4118f8df",
+    "Code": "NAFTA",
+    "Location": "North American Free Trade Agreement",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "53.42",
+    "Longitude": "-104.01"
+  },
+  {
+    "UID": "588c9ca2-d66d-3e43-b7b3-65bfd7e971cf",
+    "Code": "NPCC",
+    "Location": "Northeast Power Coordinating Council",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "51.25",
+    "Longitude": "-76.32"
+  },
+  {
+    "UID": "f9d758b6-d15e-3238-aa0e-e0a3b949fc32",
+    "Code": "UN-NAFRICA",
+    "Location": "Northern Africa",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "23.88",
+    "Longitude": "15.96"
+  },
+  {
+    "UID": "b320e7db-c758-3ba6-8839-81eb83c9d7d7",
+    "Code": "RNA",
+    "Location": "Northern America",
+    "Description": "reference location, sources:  ecoinvent 3, ILCD, GaBi",
+    "Latitude": "58.71",
+    "Longitude": "-91.96"
+  },
+  {
+    "UID": "bd6ef2ee-f612-38be-bce0-90c8e64ebaa9",
+    "Code": "Northern Cyprus",
+    "Location": "Northern Cyprus",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "35.27",
+    "Longitude": "33.59"
+  },
+  {
+    "UID": "da657f65-6f70-3a48-893f-64cf7be37d09",
+    "Code": "UN-NEUROPE",
+    "Location": "Northern Europe",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "63.06",
+    "Longitude": "13.8"
+  },
+  {
+    "UID": "1f2dfa56-7dcf-3583-bedd-f7aec167fec7",
+    "Code": "MP",
+    "Location": "Northern Mariana Islands",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "15",
+    "Longitude": "145.62"
+  },
+  {
+    "UID": "4382e0b4-8ddb-3600-bf3d-10de8fabfb86",
+    "Code": "AUS-NTR",
+    "Location": "Northern Territory",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "-19.41",
+    "Longitude": "133.36"
+  },
+  {
+    "UID": "7fa3b767-c460-354a-abe4-d49030b349c7",
+    "Code": "NO",
+    "Location": "Norway",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "61.15",
+    "Longitude": "8.74"
+  },
+  {
+    "UID": "61c8d2f5-500d-37c3-a13e-4ed176dcf6d2",
+    "Code": "UN-OCEANIA",
+    "Location": "Oceania",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "-25.28",
+    "Longitude": "136.4"
+  },
+  {
+    "UID": "6aa2b79b-1fc3-384c-b1af-565b51d5e4ad",
+    "Code": "OCE",
+    "Location": "Oceanic",
+    "Description": "reference location, sources:  ILCD, GaBi",
+    "Latitude": "0",
+    "Longitude": "0"
+  },
+  {
+    "UID": "d58da822-8993-3d8c-8ec4-f40689c2847e",
+    "Code": "OM",
+    "Location": "Oman",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "21.65",
+    "Longitude": "57.4"
+  },
+  {
+    "UID": "cd0acfe0-85ee-30f8-b439-1fb9b8009bed",
+    "Code": "PAS",
+    "Location": "Other Pacific Asia",
+    "Description": "reference location, sources:  ILCD, GaBi",
+    "Latitude": "12.39",
+    "Longitude": "123.83"
+  },
+  {
+    "UID": "655ae040-aec1-37f7-8d79-0580c5ac37ab",
+    "Code": "PAO",
+    "Location": "Pacific OECD (Japan, Australia, New Zealand)",
+    "Description": "reference location, sources:  ILCD, GaBi",
+    "Latitude": "-9.99",
+    "Longitude": "148.97"
+  },
+  {
+    "UID": "1cd3c693-132f-3c31-b5b5-e5f4c5eed6bd",
+    "Code": "PK",
+    "Location": "Pakistan",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "29.96",
+    "Longitude": "69.38"
+  },
+  {
+    "UID": "8fe4c114-5128-3c09-8a65-78e6ddbf5eed",
+    "Code": "PW",
+    "Location": "Palau",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "7.5",
+    "Longitude": "134.57"
+  },
+  {
+    "UID": "8812c36a-a5ae-336c-aa77-bf63211d899a",
+    "Code": "PS",
+    "Location": "Palestinian Territory, Occupied",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "32.03",
+    "Longitude": "35.27"
+  },
+  {
+    "UID": "e529a9ce-a4a7-38eb-9c58-28b13b22844c",
+    "Code": "PA",
+    "Location": "Panama",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "8.38",
+    "Longitude": "-80.92"
+  },
+  {
+    "UID": "235ec523-92b7-3977-939c-f78b62e708d3",
+    "Code": "PG",
+    "Location": "Papua New Guinea",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-5.94",
+    "Longitude": "143.45"
+  },
+  {
+    "UID": "dfed5bc1-77b8-3ab3-97c5-84e06566adc6",
+    "Code": "PY",
+    "Location": "Paraguay",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-23.23",
+    "Longitude": "-58.39"
+  },
+  {
+    "UID": "dd07de85-6139-3a7c-b7f8-fcc1752d45e1",
+    "Code": "PE",
+    "Location": "Peru",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-9.32",
+    "Longitude": "-75.55"
+  },
+  {
+    "UID": "da984e42-a589-3bbd-ac49-6ef0cbadcee2",
+    "Code": "PH",
+    "Location": "Philippines",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "11.11",
+    "Longitude": "122.46"
+  },
+  {
+    "UID": "ded0804c-f804-36d2-ae37-953dc2dbc505",
+    "Code": "PN",
+    "Location": "Pitcairn",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-24.36",
+    "Longitude": "-128.31"
+  },
+  {
+    "UID": "28840420-4e3d-3522-a930-8317344a285d",
+    "Code": "PL",
+    "Location": "Poland",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "52.12",
+    "Longitude": "19.4"
+  },
+  {
+    "UID": "b9b1f592-541c-3b02-bd41-1f6ea05a6ea5",
+    "Code": "UN-POLYNESIA",
+    "Location": "Polynesia",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "-15.29",
+    "Longitude": "-158.9"
+  },
+  {
+    "UID": "fc9fdf08-4e29-3f26-a270-390dc49061a2",
+    "Code": "PT",
+    "Location": "Portugal",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "40.3",
+    "Longitude": "-8.05"
+  },
+  {
+    "UID": "64e1e1cb-e1ca-3e88-af3a-838a3e7b57d6",
+    "Code": "PR",
+    "Location": "Puerto Rico",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "18.22",
+    "Longitude": "-66.46"
+  },
+  {
+    "UID": "8264ee52-f589-34c0-991a-a94f87aa1aeb",
+    "Code": "QA",
+    "Location": "Qatar",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "25.31",
+    "Longitude": "51.19"
+  },
+  {
+    "UID": "ceaa2d09-0b6e-398c-98b3-41c15d7db178",
+    "Code": "AUS-QNS",
+    "Location": "Queensland",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "-22.57",
+    "Longitude": "144.55"
+  },
+  {
+    "UID": "1e2bf244-82a6-36c2-9374-13eae0aeac38",
+    "Code": "Québec",
+    "Location": "Québec",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "53.39",
+    "Longitude": "-71.75"
+  },
+  {
+    "UID": "6c68ef81-a341-3ab2-bc21-e280c511bd86",
+    "Code": "Québec, HQ distribution network",
+    "Location": "Québec, HQ distribution network",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "50.49",
+    "Longitude": "-72.38"
+  },
+  {
+    "UID": "1560a2df-f599-3750-9974-8cbda44b4c51",
+    "Code": "RFC",
+    "Location": "ReliabilityFirst Corporation",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "40.81",
+    "Longitude": "-82.23"
+  },
+  {
+    "UID": "f1965a85-7bc2-35d2-afe2-2023aa5ab50d",
+    "Code": "RoW",
+    "Location": "Rest-of-World",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "0",
+    "Longitude": "0"
+  },
+  {
+    "UID": "3605c251-087b-3821-ac9b-ca890e07ad9c",
+    "Code": "RO",
+    "Location": "Romania",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "45.84",
+    "Longitude": "24.96"
+  },
+  {
+    "UID": "7d199e42-c733-3c12-87e1-ce5672f33ae6",
+    "Code": "Russia (Asia)",
+    "Location": "Russia (Asia)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "62.73",
+    "Longitude": "110.63"
+  },
+  {
+    "UID": "84c26536-0d12-33e3-8ed0-e7fa435f9a45",
+    "Code": "Russia (Europe)",
+    "Location": "Russia (Europe)",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "59.24",
+    "Longitude": "45.62"
+  },
+  {
+    "UID": "89484b14-b36a-3d53-a942-6a3d944d2983",
+    "Code": "RU",
+    "Location": "Russian Federation",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "61.84",
+    "Longitude": "97.03"
+  },
+  {
+    "UID": "038c0dc8-a958-3fea-97af-047244fb6960",
+    "Code": "RW",
+    "Location": "Rwanda",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-1.99",
+    "Longitude": "29.91"
+  },
+  {
+    "UID": "12eccbdd-9b32-3181-b134-1f38907cbbb5",
+    "Code": "RE",
+    "Location": "Réunion",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-21.12",
+    "Longitude": "55.53"
+  },
+  {
+    "UID": "fd18772c-bac1-3277-b20d-cccc1b90efb9",
+    "Code": "BL",
+    "Location": "Saint Barthélemy",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3",
+    "Latitude": "18.04",
+    "Longitude": "-63.04"
+  },
+  {
+    "UID": "77cbc257-e663-3286-acf6-191754c0c8e3",
+    "Code": "SH",
+    "Location": "Saint Helena, Ascension and Tristan da Cunha",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-15.95",
+    "Longitude": "-5.71"
+  },
+  {
+    "UID": "8c7e6965-b416-3689-a88b-313bbe7450f9",
+    "Code": "KN",
+    "Location": "Saint Kitts and Nevis",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "17.34",
+    "Longitude": "-62.76"
+  },
+  {
+    "UID": "196accbc-f32b-3a8e-abef-92e1a37d0fc0",
+    "Code": "LC",
+    "Location": "Saint Lucia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "13.89",
+    "Longitude": "-60.96"
+  },
+  {
+    "UID": "ea81aa7d-f47d-34c6-b37b-f98fabf3ff82",
+    "Code": "MF",
+    "Location": "Saint Martin (French part)",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3",
+    "Latitude": "18.09",
+    "Longitude": "-63.04"
+  },
+  {
+    "UID": "5109d85d-95fe-3e78-96d9-704e6e5b1279",
+    "Code": "PM",
+    "Location": "Saint Pierre and Miquelon",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "47.04",
+    "Longitude": "-56.32"
+  },
+  {
+    "UID": "c56e5259-4d4e-3e7f-acb2-b96c4637b486",
+    "Code": "VC",
+    "Location": "Saint Vincent and the Grenadines",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "13.24",
+    "Longitude": "-61.19"
+  },
+  {
+    "UID": "742523da-ef59-3b4b-b184-09f46de05d0c",
+    "Code": "WS",
+    "Location": "Samoa",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-13.65",
+    "Longitude": "-172.41"
+  },
+  {
+    "UID": "ed79acb0-cd3d-3f83-a0c5-3c7798335ef0",
+    "Code": "SM",
+    "Location": "San Marino",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "43.94",
+    "Longitude": "12.46"
+  },
+  {
+    "UID": "627fcdb6-cc9a-3e16-9657-ca6cdef0a6bb",
+    "Code": "ST",
+    "Location": "Sao Tome and Principe",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "0.2",
+    "Longitude": "6.62"
+  },
+  {
+    "UID": "6108d9a8-6ab3-3a57-b470-a194c15a1d16",
+    "Code": "CA-SK",
+    "Location": "Saskatchewan",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "54.41",
+    "Longitude": "-105.88"
+  },
+  {
+    "UID": "c12e01f2-a13f-3558-be1e-9e4aedb8242d",
+    "Code": "SA",
+    "Location": "Saudi Arabia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "24.02",
+    "Longitude": "44.58"
+  },
+  {
+    "UID": "d0ea3a63-8908-3b86-a4f9-10b6170de942",
+    "Code": "Scarborough Reef",
+    "Location": "Scarborough Reef",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "15.15",
+    "Longitude": "117.75"
+  },
+  {
+    "UID": "afbe94cd-be69-393e-babc-9f1325fc7dff",
+    "Code": "SN",
+    "Location": "Senegal",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "15.01",
+    "Longitude": "-14.88"
+  },
+  {
+    "UID": "3a2d7564-baee-3918-aebc-7b65084aabd1",
+    "Code": "RS",
+    "Location": "Serbia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3",
+    "Latitude": "44.03",
+    "Longitude": "20.8"
+  },
+  {
+    "UID": "95cc64dd-2825-39df-93ec-4ad683ecf339",
+    "Code": "CS",
+    "Location": "Serbia and Montenegro",
+    "Description": "reference location, sources:  ecoinvent 3, ILCD, GaBi",
+    "Latitude": "43.86",
+    "Longitude": "20.59"
+  },
+  {
+    "UID": "44193271-0d3b-309d-b869-820f52c4c6db",
+    "Code": "SERC",
+    "Location": "SERC Reliability Corporation",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "34.99",
+    "Longitude": "-86.47"
+  },
+  {
+    "UID": "cc9dabdf-852c-3698-ae98-b3d1d8b1c324",
+    "Code": "Serranilla Bank",
+    "Location": "Serranilla Bank",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "15.86",
+    "Longitude": "-78.63"
+  },
+  {
+    "UID": "d54185b7-1f61-3c30-a396-ac4bc44d3269",
+    "Code": "SC",
+    "Location": "Seychelles",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-4.64",
+    "Longitude": "55.47"
+  },
+  {
+    "UID": "5f507fb0-b905-3a32-bb57-967d0a3b3b43",
+    "Code": "Siachen Glacier",
+    "Location": "Siachen Glacier",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "35.39",
+    "Longitude": "77.17"
+  },
+  {
+    "UID": "54a2bf8c-09ac-367d-b513-aaa1aa7aa0f3",
+    "Code": "SL",
+    "Location": "Sierra Leone",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "8.56",
+    "Longitude": "-11.79"
+  },
+  {
+    "UID": "5dae4296-88af-3c52-9ad8-7ac394192c6d",
+    "Code": "SG",
+    "Location": "Singapore",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "1.35",
+    "Longitude": "103.8"
+  },
+  {
+    "UID": "2c38b9e4-5cec-3b32-8dde-4e3d5b22c648",
+    "Code": "SX",
+    "Location": "Sint Maarten (Dutch part)",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3",
+    "Latitude": "12.56",
+    "Longitude": "-68.33"
+  },
+  {
+    "UID": "41d6ad07-61a5-327a-9e1b-d567041ce9e9",
+    "Code": "SK",
+    "Location": "Slovakia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "48.7",
+    "Longitude": "19.49"
+  },
+  {
+    "UID": "ac5585d9-8646-3255-a99c-359140537783",
+    "Code": "SI",
+    "Location": "Slovenia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "46.12",
+    "Longitude": "14.82"
+  },
+  {
+    "UID": "26148d62-1ef7-3844-918a-f182d63976b6",
+    "Code": "SB",
+    "Location": "Solomon Islands",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-9.61",
+    "Longitude": "160.1"
+  },
+  {
+    "UID": "b807023f-87e6-3b8a-9a92-f79f546ff9cc",
+    "Code": "SO",
+    "Location": "Somalia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "9.77",
+    "Longitude": "48.31"
+  },
+  {
+    "UID": "4f146d3d-de5e-3896-8bac-17f57c9eaa05",
+    "Code": "Somaliland",
+    "Location": "Somaliland",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "9.73",
+    "Longitude": "46.25"
+  },
+  {
+    "UID": "959848ca-10cc-3a60-9a81-8ac11523dc63",
+    "Code": "ZA",
+    "Location": "South Africa",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-30.55",
+    "Longitude": "23.12"
+  },
+  {
+    "UID": "d34c6aba-144a-3e2d-acb4-0dd5f93ae50e",
+    "Code": "UN-SAMERICA",
+    "Location": "South America",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "-15.03",
+    "Longitude": "-60.73"
+  },
+  {
+    "UID": "1494adfb-98f4-3dc3-83b2-10bead2efff7",
+    "Code": "AUS-SAS",
+    "Location": "South Australia",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "-30.1",
+    "Longitude": "135.82"
+  },
+  {
+    "UID": "1d8d5e91-2302-308b-9e88-c3e77fcad378",
+    "Code": "GS",
+    "Location": "South Georgia and the South Sandwich Islands",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-54.2",
+    "Longitude": "-36.89"
+  },
+  {
+    "UID": "3691308f-2a4c-3f69-83f2-880d32e29c84",
+    "Code": "SS",
+    "Location": "South Sudan",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3",
+    "Latitude": "7.3",
+    "Longitude": "30.25"
+  },
+  {
+    "UID": "e832ff92-78c2-3ab2-8f7d-d0ca126994bf",
+    "Code": "UN-SEASIA",
+    "Location": "South-Eastern Asia",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "7.93",
+    "Longitude": "109.93"
+  },
+  {
+    "UID": "326dde39-0b64-3523-b09f-aa0f427066d8",
+    "Code": "UN-SASIA",
+    "Location": "Southern Africa",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "-25.49",
+    "Longitude": "22.53"
+  },
+  {
+    "UID": "a8a64cef-262a-34de-8872-b68b63ab7cd8",
+    "Code": "SAS",
+    "Location": "Southern Asia",
+    "Description": "reference location, sources:  ecoinvent 3, ILCD, GaBi",
+    "Latitude": "7.93",
+    "Longitude": "109.93"
+  },
+  {
+    "UID": "fe8f0f22-0c96-348b-86c2-b27e42d27f04",
+    "Code": "UN-SEUROPE",
+    "Location": "Southern Europe",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "41.48",
+    "Longitude": "7.31"
+  },
+  {
+    "UID": "5566919c-eb38-3560-957c-4fddbf8314c7",
+    "Code": "SPP",
+    "Location": "Southwest Power Pool",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "36.18",
+    "Longitude": "-97.9"
+  },
+  {
+    "UID": "12470fe4-06d4-3017-996e-ab37dd65fc14",
+    "Code": "ES",
+    "Location": "Spain",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "40.22",
+    "Longitude": "-3.64"
+  },
+  {
+    "UID": "e914aa2b-6272-3660-9305-a03124b4d9a8",
+    "Code": "Spratly Islands",
+    "Location": "Spratly Islands",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "10.54",
+    "Longitude": "114.92"
+  },
+  {
+    "UID": "d0fa06cd-9333-3c8c-ae35-7ffe5cd1c4e9",
+    "Code": "LK",
+    "Location": "Sri Lanka",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "7.61",
+    "Longitude": "80.7"
+  },
+  {
+    "UID": "6515e168-6762-351f-b146-9deb97414906",
+    "Code": "SGCC",
+    "Location": "State Grid Corporation of China",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "37.81",
+    "Longitude": "103.55"
+  },
+  {
+    "UID": "748ced3d-d3ad-3822-bb8f-2e73f28ef722",
+    "Code": "AFR",
+    "Location": "Sub-Sahara Africa",
+    "Description": "reference location, sources:  ILCD, GaBi",
+    "Latitude": "-1.23",
+    "Longitude": "18.32"
+  },
+  {
+    "UID": "6226f7cb-e59e-39a9-8b5c-ef6f94f966fd",
+    "Code": "SD",
+    "Location": "Sudan",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "15.98",
+    "Longitude": "29.93"
+  },
+  {
+    "UID": "e22428cc-f96c-3a96-b4a9-39c209ad1000",
+    "Code": "SR",
+    "Location": "SuriLocation",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "4.12",
+    "Longitude": "-55.91"
+  },
+  {
+    "UID": "b5bf27b2-555d-344e-bdf2-230080db5a1d",
+    "Code": "SJ",
+    "Location": "Svalbard and Jan Mayen",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "78.82",
+    "Longitude": "18.37"
+  },
+  {
+    "UID": "7dabf5c1-98b0-3ab2-aaa4-2bb03a113e55",
+    "Code": "SZ",
+    "Location": "Swaziland",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-26.56",
+    "Longitude": "31.49"
+  },
+  {
+    "UID": "efad7abb-323e-3d40-9628-4c8a6da076a1",
+    "Code": "SE",
+    "Location": "Sweden",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "62.01",
+    "Longitude": "15.27"
+  },
+  {
+    "UID": "d88fc6ed-f21e-3464-935f-f76288b84103",
+    "Code": "CH",
+    "Location": "Switzerland",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "46.86",
+    "Longitude": "7.9"
+  },
+  {
+    "UID": "1548af1c-94ad-3558-8324-df8f08baf227",
+    "Code": "SY",
+    "Location": "Syrian Arab Republic",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "35.01",
+    "Longitude": "38.5"
+  },
+  {
+    "UID": "255a5cac-7685-3722-b4d0-2f04c37be771",
+    "Code": "TW",
+    "Location": "Taiwan, Province of China",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "23.75",
+    "Longitude": "120.94"
+  },
+  {
+    "UID": "456c2e75-fe0f-3a57-bd1c-fd87117e0963",
+    "Code": "TJ",
+    "Location": "Tajikistan",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "38.66",
+    "Longitude": "69.42"
+  },
+  {
+    "UID": "73bb4387-b307-3739-aacb-9cd62ac4049c",
+    "Code": "TZ",
+    "Location": "Tanzania, United Republic of",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-6.27",
+    "Longitude": "34.82"
+  },
+  {
+    "UID": "5bb22373-e69e-31fe-b00e-0a38a7129c8c",
+    "Code": "AUS-TSM",
+    "Location": "Tasmania",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "-41.93",
+    "Longitude": "146.59"
+  },
+  {
+    "UID": "7e764aa6-b752-3530-855f-0373606d1886",
+    "Code": "TRE",
+    "Location": "Texas Regional Entity",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "30.91",
+    "Longitude": "-99.21"
+  },
+  {
+    "UID": "1fdc0f89-3412-3e55-b0d2-811821b84d3b",
+    "Code": "TH",
+    "Location": "Thailand",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "15.7",
+    "Longitude": "100.84"
+  },
+  {
+    "UID": "313a21d5-badc-3f56-b223-8ebf8c7690f6",
+    "Code": "TL",
+    "Location": "Timor-Leste",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-8.82",
+    "Longitude": "125.87"
+  },
+  {
+    "UID": "1f0eb098-5870-335e-a2fa-2f68a223b173",
+    "Code": "TG",
+    "Location": "Togo",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "8.79",
+    "Longitude": "1.08"
+  },
+  {
+    "UID": "b6717b91-c759-3cc0-bf30-aa9a784e6390",
+    "Code": "TK",
+    "Location": "Tokelau",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-9.19",
+    "Longitude": "-171.85"
+  },
+  {
+    "UID": "01b6e203-44b6-3835-85ed-1ddedf20d531",
+    "Code": "TO",
+    "Location": "Tonga",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-21.2",
+    "Longitude": "-175.18"
+  },
+  {
+    "UID": "accc9105-df53-3311-9407-fd5b41255e23",
+    "Code": "TT",
+    "Location": "Trinidad and Tobago",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "10.46",
+    "Longitude": "-61.25"
+  },
+  {
+    "UID": "aafb96b2-fa88-36be-b07c-4496867bad56",
+    "Code": "TN",
+    "Location": "Tunisia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "35.38",
+    "Longitude": "9.59"
+  },
+  {
+    "UID": "e7d707a2-6e7f-3b6f-b52c-489c60e429b1",
+    "Code": "TR",
+    "Location": "Turkey",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "39.06",
+    "Longitude": "35.17"
+  },
+  {
+    "UID": "6a962563-e235-3178-9e66-3e356ac8d9e4",
+    "Code": "TM",
+    "Location": "Turkmenistan",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "39.12",
+    "Longitude": "59.38"
+  },
+  {
+    "UID": "5c4fefda-27cf-384c-b999-be13e6b8608a",
+    "Code": "TC",
+    "Location": "Turks and Caicos Islands",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "21.9",
+    "Longitude": "-71.95"
+  },
+  {
+    "UID": "c9a1fdac-6e08-3dd8-9e71-73244f34d7b3",
+    "Code": "TV",
+    "Location": "Tuvalu",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-8.51",
+    "Longitude": "179.21"
+  },
+  {
+    "UID": "e743b51e-41f8-3369-9418-34177c8f34e7",
+    "Code": "UCTE without France",
+    "Location": "UCTE without France",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "46.03",
+    "Longitude": "12.52"
+  },
+  {
+    "UID": "cdba052d-e53c-3173-b857-3d555fad2c16",
+    "Code": "UCTE without Germany",
+    "Location": "UCTE without Germany",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "45.45",
+    "Longitude": "10.92"
+  },
+  {
+    "UID": "8dc6a685-44c9-3a1c-b937-78a6de2d9830",
+    "Code": "UCTE without Germany and France",
+    "Location": "UCTE without Germany and France",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "45.18",
+    "Longitude": "12.88"
+  },
+  {
+    "UID": "2a0617ac-cf8b-3862-9c43-e2ffeb5b8d5b",
+    "Code": "UG",
+    "Location": "Uganda",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "1.28",
+    "Longitude": "32.38"
+  },
+  {
+    "UID": "5269f4d7-5f5b-375f-8f94-bab2100a5531",
+    "Code": "UA",
+    "Location": "Ukraine",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "49.01",
+    "Longitude": "31.38"
+  },
+  {
+    "UID": "b633c174-f67b-3819-a2a4-ef89f2d5b8cb",
+    "Code": "UCTE",
+    "Location": "Union for the Co-ordination of Transmission of Electricity",
+    "Description": "reference location, sources:  ecoinvent 3, ILCD, GaBi",
+    "Latitude": "46.09",
+    "Longitude": "10.8"
+  },
+  {
+    "UID": "b6bb43df-4525-3928-a105-fb5741bddbea",
+    "Code": "AE",
+    "Location": "United Arab Emirates",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "23.54",
+    "Longitude": "54.16"
+  },
+  {
+    "UID": "7885444a-f42e-3b30-8518-c5be17c8850b",
+    "Code": "GB",
+    "Location": "United Kingdom",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "53",
+    "Longitude": "-1.6"
+  },
+  {
+    "UID": "0b3b97fa-6688-3c56-88ee-4ae80ec0c3c2",
+    "Code": "US",
+    "Location": "United States",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "39.62",
+    "Longitude": "-98.6"
+  },
+  {
+    "UID": "0dd00e33-b6fc-37b8-91eb-e3177217d6c0",
+    "Code": "UM",
+    "Location": "United States Minor Outlying Islands",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-0.38",
+    "Longitude": "-160.02"
+  },
+  {
+    "UID": "c385c23d-66c3-3558-989c-db5586384532",
+    "Code": "US-AL",
+    "Location": "United States, Alabama",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "32.79",
+    "Longitude": "-86.8"
+  },
+  {
+    "UID": "b423ff37-b678-3ea4-9366-ede7b1a7c0c0",
+    "Code": "US-AK",
+    "Location": "United States, Alaska",
+    "Description": "reference location, sources: DataSmart",
+    "Latitude": "61.38",
+    "Longitude": "-152.26"
+  },
+  {
+    "UID": "b7745632-fc6d-37f8-85f0-f53c48027b96",
+    "Code": "US-AZ",
+    "Location": "United States, Arizona",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "33.77",
+    "Longitude": "-111.38"
+  },
+  {
+    "UID": "b54bf461-c111-318c-9f92-a499f34dc05d",
+    "Code": "US-AR",
+    "Location": "United States, Arkansas",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "34.95",
+    "Longitude": "-92.38"
+  },
+  {
+    "UID": "b775ab58-2693-342d-b496-3265a17b5b32",
+    "Code": "US-CA",
+    "Location": "United States, California",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "36.17",
+    "Longitude": "-119.74"
+  },
+  {
+    "UID": "12fe7ead-4836-3c05-bbd9-768e2f0fdb66",
+    "Code": "US-CO",
+    "Location": "United States, Colorado",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "39.06",
+    "Longitude": "-105.32"
+  },
+  {
+    "UID": "e86115dd-61e0-3652-8b8f-79fc693dcf01",
+    "Code": "US-CT",
+    "Location": "United States, Connecticut",
+    "Description": "reference location, sources: DataSmart",
+    "Latitude": "41.58",
+    "Longitude": "-72.76"
+  },
+  {
+    "UID": "1ae4da05-1c10-36a3-aadc-da3431d1b677",
+    "Code": "US-DE",
+    "Location": "United States, Delaware",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "39.34",
+    "Longitude": "-75.51"
+  },
+  {
+    "UID": "efe104ea-d72b-3371-940f-1bb877257ab3",
+    "Code": "US-DC",
+    "Location": "United States, District of Columbia",
+    "Description": "reference location, sources: DataSmart",
+    "Latitude": "38.89",
+    "Longitude": "-77.02"
+  },
+  {
+    "UID": "445fe89e-beea-3ff9-8975-167f35b53373",
+    "Code": "US-FL",
+    "Location": "United States, Florida",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "27.83",
+    "Longitude": "-81.71"
+  },
+  {
+    "UID": "2b701fc6-ef0e-3b9a-9f4d-631863e904f6",
+    "Code": "US-GA",
+    "Location": "United States, Georgia",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "32.98",
+    "Longitude": "-83.64"
+  },
+  {
+    "UID": "fe2bd352-e70f-3e48-a023-02843b5ac978",
+    "Code": "US-HI",
+    "Location": "United States, Hawaii",
+    "Description": "reference location, sources: DataSmart",
+    "Latitude": "21.1",
+    "Longitude": "-157.53"
+  },
+  {
+    "UID": "1f80437b-a9fb-34e0-a052-26a2a7fd5520",
+    "Code": "US-ID",
+    "Location": "United States, Idaho",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "44.23",
+    "Longitude": "-114.51"
+  },
+  {
+    "UID": "c2521c9e-e466-3960-b789-4046cadadf24",
+    "Code": "US-IL",
+    "Location": "United States, Illinois",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "40.33",
+    "Longitude": "-89"
+  },
+  {
+    "UID": "70f8ca91-42c2-3bae-a4e2-dcc1b8033abe",
+    "Code": "US-IN",
+    "Location": "United States, Indiana",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "39.86",
+    "Longitude": "-86.26"
+  },
+  {
+    "UID": "fa384517-d567-36e2-9a5a-dd52df663dcf",
+    "Code": "US-IA",
+    "Location": "United States, Iowa",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "42",
+    "Longitude": "-93.21"
+  },
+  {
+    "UID": "d9c55cbc-3e12-3ff1-9370-bdfebddccd5f",
+    "Code": "US-KS",
+    "Location": "United States, Kansas",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "38.51",
+    "Longitude": "-96.8"
+  },
+  {
+    "UID": "e132e45b-712d-3e2c-af19-c1f1b99c3c91",
+    "Code": "US-KY",
+    "Location": "United States, Kentucky",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "37.66",
+    "Longitude": "-84.65"
+  },
+  {
+    "UID": "c384a41a-bbea-3bc9-b333-75287ddb64bb",
+    "Code": "US-LA",
+    "Location": "United States, Louisiana",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "31.18",
+    "Longitude": "-91.87"
+  },
+  {
+    "UID": "4d844119-4127-3a4d-b856-663e8039d21c",
+    "Code": "US-ME",
+    "Location": "United States, Maine",
+    "Description": "reference location, sources: DataSmart",
+    "Latitude": "44.6",
+    "Longitude": "-69.39"
+  },
+  {
+    "UID": "86596f8c-55cb-3a71-976f-6a56e871f29b",
+    "Code": "US-MD",
+    "Location": "United States, Maryland",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "39.07",
+    "Longitude": "-76.79"
+  },
+  {
+    "UID": "85a8277c-cb62-3889-ae66-71d05d9263d3",
+    "Code": "US-MA",
+    "Location": "United States, Massachusetts",
+    "Description": "reference location, sources: DataSmart",
+    "Latitude": "42.23",
+    "Longitude": "-71.53"
+  },
+  {
+    "UID": "bb966cd1-e1ba-33fd-8375-56d66970d7df",
+    "Code": "US-MI",
+    "Location": "United States, Michigan",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "43.35",
+    "Longitude": "-84.56"
+  },
+  {
+    "UID": "7aa1c4da-339b-3230-8838-2de0f6a6581a",
+    "Code": "US-MN",
+    "Location": "United States, Minnesota",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "45.73",
+    "Longitude": "-93.91"
+  },
+  {
+    "UID": "0ee63262-59b9-3da8-8cf7-5f42828ffa7b",
+    "Code": "US-MS",
+    "Location": "United States, Mississippi",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "32.76",
+    "Longitude": "-89.68"
+  },
+  {
+    "UID": "cdc9423a-0890-3494-b717-51263425bcf6",
+    "Code": "US-MO",
+    "Location": "United States, Missouri",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "38.46",
+    "Longitude": "-92.3"
+  },
+  {
+    "UID": "a220b227-87c9-368d-8bfe-5ff357517419",
+    "Code": "US-MT",
+    "Location": "United States, Montana",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "46.9",
+    "Longitude": "-110.32"
+  },
+  {
+    "UID": "669eb22e-cf87-3b59-a553-06880eed6a5a",
+    "Code": "US-NE",
+    "Location": "United States, Nebraska",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "41.12",
+    "Longitude": "-98.28"
+  },
+  {
+    "UID": "f9eab7a5-2fbd-36f4-b88f-438ba1a8da94",
+    "Code": "US-NV",
+    "Location": "United States, Nevada",
+    "Description": "reference location, sources: DataSmart",
+    "Latitude": "38.41",
+    "Longitude": "-117.12"
+  },
+  {
+    "UID": "ca2b1447-f5e7-3554-b244-ee56ce0e92ff",
+    "Code": "US-NH",
+    "Location": "United States, New Hampshire",
+    "Description": "reference location, sources: DataSmart",
+    "Latitude": "43.41",
+    "Longitude": "-71.56"
+  },
+  {
+    "UID": "52c1fc37-d9e9-33a1-aaea-c2bc601b0364",
+    "Code": "US-NJ",
+    "Location": "United States, New Jersey",
+    "Description": "reference location, sources: DataSmart",
+    "Latitude": "40.31",
+    "Longitude": "-74.5"
+  },
+  {
+    "UID": "560e664b-9150-3314-b530-1eaa6af5b067",
+    "Code": "US-NM",
+    "Location": "United States, New Mexico",
+    "Description": "reference location, sources: DataSmart",
+    "Latitude": "34.83",
+    "Longitude": "-106.23"
+  },
+  {
+    "UID": "0efe3dd6-681d-3dd2-8970-52bea5982168",
+    "Code": "US-NY",
+    "Location": "United States, New York",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "42.14",
+    "Longitude": "-74.93"
+  },
+  {
+    "UID": "cf1fe73c-b3b8-3e6a-a362-a24cc00edca8",
+    "Code": "US-NC",
+    "Location": "United States, North Carolina",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "35.64",
+    "Longitude": "-79.84"
+  },
+  {
+    "UID": "7d5a6438-e66c-37d7-b069-9f6cbb9efb22",
+    "Code": "US-ND",
+    "Location": "United States, North Dakota",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "47.53",
+    "Longitude": "-99.79"
+  },
+  {
+    "UID": "8f530ffb-71ad-30e5-8e27-ea335b94166f",
+    "Code": "US-OH",
+    "Location": "United States, Ohio",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "40.37",
+    "Longitude": "-82.77"
+  },
+  {
+    "UID": "9704b0fb-3771-33d7-a07d-a7d6e1a431a2",
+    "Code": "US-OK",
+    "Location": "United States, Oklahoma",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "35.53",
+    "Longitude": "-96.92"
+  },
+  {
+    "UID": "7fb70584-7e67-3d35-9d3a-16a62784d3a3",
+    "Code": "US-OR",
+    "Location": "United States, Oregon",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "44.56",
+    "Longitude": "-122.12"
+  },
+  {
+    "UID": "22b8b398-1b5b-3955-a162-614bb67b5927",
+    "Code": "US-PA",
+    "Location": "United States, Pennsylvania",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "40.57",
+    "Longitude": "-77.26"
+  },
+  {
+    "UID": "869d2f4d-09bf-3b85-b19d-3cd046b07ac5",
+    "Code": "US-RI",
+    "Location": "United States, Rhode Island",
+    "Description": "reference location, sources: DataSmart",
+    "Latitude": "41.67",
+    "Longitude": "-71.51"
+  },
+  {
+    "UID": "58a2cc24-3eaf-3596-988e-742e109b66fd",
+    "Code": "US-SC",
+    "Location": "United States, South Carolina",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "33.81",
+    "Longitude": "-80.9"
+  },
+  {
+    "UID": "112e6937-5e63-32a1-ba68-730cbd933c75",
+    "Code": "US-SD",
+    "Location": "United States, South Dakota",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "44.28",
+    "Longitude": "-99.46"
+  },
+  {
+    "UID": "1be0b149-5590-34c3-bee8-fdb3255c95f4",
+    "Code": "US-TN",
+    "Location": "United States, Tennessee",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "35.74",
+    "Longitude": "-86.74"
+  },
+  {
+    "UID": "f767f1ae-d126-3766-846d-62fa2f6f927f",
+    "Code": "US-TX",
+    "Location": "United States, Texas",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "31.1",
+    "Longitude": "-97.64"
+  },
+  {
+    "UID": "10334e82-fe92-33bf-9d45-2decb730b1c2",
+    "Code": "US-UT",
+    "Location": "United States, Utah",
+    "Description": "reference location, sources: DataSmart",
+    "Latitude": "40.11",
+    "Longitude": "-111.85"
+  },
+  {
+    "UID": "3b7e10ba-fd35-381d-8ff5-8811c0f6bf32",
+    "Code": "US-VT",
+    "Location": "United States, Vermont",
+    "Description": "reference location, sources: DataSmart",
+    "Latitude": "44.04",
+    "Longitude": "-72.7"
+  },
+  {
+    "UID": "4ec8c4f4-fd4d-3a38-80a5-7446f9420f11",
+    "Code": "US-VA",
+    "Location": "United States, Virginia",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "37.76",
+    "Longitude": "-78.2"
+  },
+  {
+    "UID": "9ef574c2-cd1a-3866-b782-5e74b2c6cfcb",
+    "Code": "US-WA",
+    "Location": "United States, Washington",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "47.39",
+    "Longitude": "-121.57"
+  },
+  {
+    "UID": "a8ce62fb-3610-311c-8af0-a8bf4942f5a0",
+    "Code": "US-WV",
+    "Location": "United States, West Virginia",
+    "Description": "reference location, sources: DataSmart",
+    "Latitude": "38.46",
+    "Longitude": "-80.96"
+  },
+  {
+    "UID": "38af12ff-e146-3293-a429-6ddf9c28b806",
+    "Code": "US-WI",
+    "Location": "United States, Wisconsin",
+    "Description": "reference location, sources: USDA, DataSmart",
+    "Latitude": "44.25",
+    "Longitude": "-89.63"
+  },
+  {
+    "UID": "373367f9-6d69-3917-ac7a-b9b523b4f30f",
+    "Code": "US-WY",
+    "Location": "United States, Wyoming",
+    "Description": "reference location, sources: DataSmart",
+    "Latitude": "42.74",
+    "Longitude": "-107.2"
+  },
+  {
+    "UID": "1b23f8a4-c97c-355f-b57e-c2aae921f03d",
+    "Code": "UY",
+    "Location": "Uruguay",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-32.8",
+    "Longitude": "-56.01"
+  },
+  {
+    "UID": "aae773f6-9106-3fd9-95d0-c38764e6dccd",
+    "Code": "Guantanamo Bay",
+    "Location": "US Naval Base Guantanamo Bay",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "19.92",
+    "Longitude": "-75.15"
+  },
+  {
+    "UID": "8b3274b7-55aa-3339-82f5-7fb557e25923",
+    "Code": "UZ",
+    "Location": "Uzbekistan",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "41.75",
+    "Longitude": "63.17"
+  },
+  {
+    "UID": "0730b75e-96c0-353b-9b19-6be7ff4fa194",
+    "Code": "VU",
+    "Location": "Vanuatu",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-15.37",
+    "Longitude": "166.89"
+  },
+  {
+    "UID": "eabb18f0-a40c-3b35-9237-0c9e1bc1d61e",
+    "Code": "VE",
+    "Location": "Venezuela, Bolivarian Republic of",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "7.12",
+    "Longitude": "-66.16"
+  },
+  {
+    "UID": "b04ebbb9-1260-3d5b-a16f-5f2a16c4886e",
+    "Code": "AUS-VCT",
+    "Location": "Victoria",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "-36.85",
+    "Longitude": "144.3"
+  },
+  {
+    "UID": "5e9c52c6-d618-381e-bd9d-62a294c4979c",
+    "Code": "VN",
+    "Location": "Viet Nam",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "21.49",
+    "Longitude": "105.31"
+  },
+  {
+    "UID": "1815235d-384d-3912-9466-8c73298f1e52",
+    "Code": "VG",
+    "Location": "Virgin Islands, British",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "18.5",
+    "Longitude": "-64.48"
+  },
+  {
+    "UID": "35b36b28-916d-38b3-8abd-df832e286126",
+    "Code": "VI",
+    "Location": "Virgin Islands, U.S.",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "17.96",
+    "Longitude": "-64.78"
+  },
+  {
+    "UID": "c1b291cb-8522-336e-8217-31b509c9fcdd",
+    "Code": "WF",
+    "Location": "Wallis and Futuna",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-13.78",
+    "Longitude": "-177.14"
+  },
+  {
+    "UID": "fb033b5d-d7d0-37f5-a147-c0bfed75d56c",
+    "Code": "UN-WAFRICA",
+    "Location": "Western Africa",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "14.74",
+    "Longitude": "-1.17"
+  },
+  {
+    "UID": "02cb9a5a-488d-3ea0-84d9-3ae7b315e386",
+    "Code": "UN-WASIA",
+    "Location": "Western Asia",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "28.46",
+    "Longitude": "43.36"
+  },
+  {
+    "UID": "2ccce7fd-714d-3ce6-8a5d-909f98c8819f",
+    "Code": "AUS-WAS",
+    "Location": "Western Australia",
+    "Description": "reference location, sources:  ecoinvent 3.2",
+    "Latitude": "-25.46",
+    "Longitude": "122.17"
+  },
+  {
+    "UID": "f62a6cfc-7bf3-3556-a8b3-a168accf9875",
+    "Code": "WECC",
+    "Location": "Western Electricity Coordinating Council",
+    "Description": "reference location, sources:  ecoinvent 3",
+    "Latitude": "46.6",
+    "Longitude": "-116.2"
+  },
+  {
+    "UID": "27ec30d1-c271-32b7-8cdf-d39530307275",
+    "Code": "WEU",
+    "Location": "Western Europe",
+    "Description": "reference location, sources:  ecoinvent 3, ILCD, GaBi",
+    "Latitude": "48.53",
+    "Longitude": "6.48"
+  },
+  {
+    "UID": "28c494da-87ff-3996-9927-ac34ba30adbe",
+    "Code": "EH",
+    "Location": "Western Sahara",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "24.55",
+    "Longitude": "-13.7"
+  },
+  {
+    "UID": "00c66f1a-036b-38f9-8b70-9cb8d925d3d9",
+    "Code": "YE",
+    "Location": "Yemen",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "15.8",
+    "Longitude": "48.35"
+  },
+  {
+    "UID": "d9c29677-6530-3ff5-92a5-ab979ed1f7a0",
+    "Code": "ZM",
+    "Location": "Zambia",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-14.61",
+    "Longitude": "26.32"
+  },
+  {
+    "UID": "a1555463-c361-3703-aa27-4a8b44e29192",
+    "Code": "ZW",
+    "Location": "Zimbabwe",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "-19",
+    "Longitude": "29.87"
+  },
+  {
+    "UID": "9cea1e24-73aa-3499-95fa-34faac95b3e7",
+    "Code": "AX",
+    "Location": "Åland Islands",
+    "Description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+    "Latitude": "60.19",
+    "Longitude": "19.95"
+  }
+]
