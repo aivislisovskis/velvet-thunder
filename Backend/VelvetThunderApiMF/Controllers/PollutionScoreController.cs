@@ -41,6 +41,15 @@ namespace VelvetThunderApiMF.Controllers
             return  _pollutionScoreService.GetDetailedCompanyPollutionScore(productId);
         }
 
+        [HttpPost]
+        [Route("product")]
+        public IHttpActionResult AddProduct(Product product)
+        {
+            _pollutionScoreService.CreateCompanyPollutionDataSet(product);
+            return Ok();
+
+        }
+
         [HttpGet]
         [Route("map")]
         public IHttpActionResult GetMap(/*string companyId*/)

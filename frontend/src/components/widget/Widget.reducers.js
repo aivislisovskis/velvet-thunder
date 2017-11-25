@@ -9,7 +9,6 @@ const WidgetReducer = (state = {
   noScore:true,
   waitingScore:true
 }, action) => {
-  console.info(action);
   switch (action.type) {
     case WIDGET_GET_SCORE:
       return {

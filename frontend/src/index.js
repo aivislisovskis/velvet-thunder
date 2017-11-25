@@ -21,10 +21,12 @@ import thunk from 'redux-thunk';
 
 import Widget from './components/widget/Widget.container';
 import Details from './components/details/Details.container';
+import Add from './components/add/Add.container';
 
 // reducers
 import WidgetReducer from './components/widget/Widget.reducers';
 import DetailsReducer from './components/details/Details.reducers';
+import AddReducer from './components/add/Add.reducers';
 
 import registerServiceWorker from './registerServiceWorker';
 registerServiceWorker();
@@ -39,9 +41,10 @@ const store = createStore(
   combineReducers({
     WidgetReducer,
     DetailsReducer,
+    AddReducer,
     routing: routerReducer
   }),
-  applyMiddleware(middleware, thunk)
+  applyMiddleware(logger, middleware, thunk)
 );
 
 ReactDOM.render(
@@ -50,6 +53,7 @@ ReactDOM.render(
       <ConnectedRouter  history={history}>
         <div>
         <Route path="/id/:productId" component={Widget} />
+        <Route path="/add" component={Add} />
         <Route path="/details/:productId" component={Details} />
         </div>
       </ConnectedRouter>

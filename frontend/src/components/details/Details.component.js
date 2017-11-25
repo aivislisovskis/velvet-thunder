@@ -57,7 +57,6 @@ class DetailsComponent extends React.Component {
         <div className="seal">
           <div className="face">
             <div className="evaluation">
-            9.3
             </div>
           </div>
         </div>

@@ -9,7 +9,6 @@ const DetailsReducer = (state = {
   noScore:true,
   waitingScore:true
 }, action) => {
-  console.info(action);
   switch (action.type) {
     case DETAILS_GET_SCORE:
       return {
