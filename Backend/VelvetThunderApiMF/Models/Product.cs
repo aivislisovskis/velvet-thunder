@@ -9,7 +9,7 @@ namespace VelvetThunderApiMF.Models
     {
         public string Name;
         public string CompanyName;
-        public List<string> FactoryList;
-        public ProductPollutionScore ProductPollutionScore;
+        public List<Factory> FactoryList;
+        public double Score;
     }
 }

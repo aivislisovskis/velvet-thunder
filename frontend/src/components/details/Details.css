@@ -276,8 +276,29 @@
   display: flex;
   flex-direction: column;
 }
-
+.sidebar{
+  max-width:380px;
+}
 .mainbar{
   flex-grow: 2;
   background: #232323;
+}
+
+.eval{
+  background: green;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  color: white;
+}
+
+.eval.yellow{
+  background: #df9408;
 }

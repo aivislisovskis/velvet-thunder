@@ -74,7 +74,7 @@ class DetailsComponent extends React.Component {
     <List style={style}>
       {props.score?props.score.FactoryList.map((factory) => {
           return <ListItem
-            leftAvatar={<Avatar icon={<FileFolder />} />}
+            leftAvatar={<span className="eval">{factory.Score}</span>}
             rightIcon={<ActionInfo />}
             primaryText={`${factory.Location}; ${factory.Latitude}, ${factory.Longitude}`}
             secondaryText={factory.Description}
