@@ -27,13 +27,13 @@ class AddComponent extends React.Component {
         hintText="Enter company name"
         floatingLabelText="Company name"
         onChange={(event) => props.onChangeCompany(event.target.value)}
-        defaultValue={props.companyName}
+        value={props.companyName}
       />
       <TextField
         hintText="Enter product title"
         floatingLabelText="Product title"
         onChange={(event) => props.onChangeProduct(event.target.value)}
-        defaultValue={props.productName}
+        value={props.productName}
       />
         <AutoComplete
           floatingLabelText="Search factory..."
