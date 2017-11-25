@@ -5,7 +5,7 @@ import './Widget.css';
 class WidgetComponent extends React.Component {
   constructor(props) {
     super(props);
-    props.getScore();
+    props.getScore(props.match.params.productId);
   }
 
   render() {

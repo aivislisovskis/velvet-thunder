@@ -1,28 +1,40 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Web.Http;
+﻿using System.Web.Http;
+using VelvetThunderApiMF.Models;
 using VelvetThunderApiMF.Services;
 
 namespace VelvetThunderApiMF.Controllers
 {
     public class PollutionScoreController : ApiController
     {
+        private readonly PollutionScoreService _pollutionScoreService;
+        private readonly RamaniApiClient _ramaniApiClient;
 
-        //GET simplescore
-        public string GetOverallScore(string companyid)
+        public PollutionScoreController()
         {
-            var _pollutionScoreService = new PollutionScoreService();
-            //_pollutionScoreService.GetOverallPolutionScore(companyid);
-            return _pollutionScoreService.GetOverallPolutionScore(companyid).ToString();
+            _pollutionScoreService = new PollutionScoreService();
+            _ramaniApiClient = new RamaniApiClient();
         }
 
-        //GET simplescore
-        public string GetDetailedScore(int id)
+        [HttpGet]
+        [Route("score")]
+        public string GetOverallScore(string productId)
         {
-            return "value";
+            return _pollutionScoreService.GetOverallPolutionScore(productId).ToString();
+        }
+
+        [HttpGet]
+        [Route("detailedscore")]
+        public CompanyPollutionScore GetDetailedScore(string productId)
+        {
+            return  _pollutionScoreService.GetDetailedCompanyPollutionScore(productId);
+        }
+
+        [HttpGet]
+        [Route("map")]
+        public IHttpActionResult GetMap(/*string companyId*/)
+        {
+            return  Ok(_ramaniApiClient.GetImage());
+
         }
     }
 }
