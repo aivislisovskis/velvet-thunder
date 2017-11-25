@@ -72,9 +72,9 @@ class DetailsComponent extends React.Component {
     </a>
     <List style={style}>
       <ListItem
-        leftAvatar={<Avatar icon={<FileFolder />} />}
+        leftAvatar={<span className="eval">9</span>}
         rightIcon={<ActionInfo />}
-        primaryText="Ironize"
+        primaryText="Ironizadf sd fsdfsdfsdfs sdfsdfsdfsdfsdf sdfsdfsdfsdfse"
         secondaryText="Iron supplier"
       />
       <ListItem
