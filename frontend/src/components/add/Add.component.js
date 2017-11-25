@@ -5,8 +5,25 @@ import ActionDelete from 'material-ui/svg-icons/action/delete';
 import IconButton from 'material-ui/IconButton';
 import RaisedButton from 'material-ui/RaisedButton';
 import TextField from 'material-ui/TextField';
+import AppBar from 'material-ui/AppBar';
+import Paper from 'material-ui/Paper';
+import {Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle} from 'material-ui/Toolbar';
+
 
 import './Add.css';
+
+const style = {
+  margin: 20,
+};
+
+const containerstyle = {
+  margin: 'auto',
+  width: 500,
+}
+
+const paddingStyle = {
+  padding:20,
+}
 
 class AddComponent extends React.Component {
   constructor(props) {
@@ -23,18 +40,27 @@ class AddComponent extends React.Component {
 
     return (
       <div>
+        <AppBar
+      title="Eternal Earth"
+    />
+    <div style={containerstyle}>
+    <Paper style={style}>
+    <Toolbar>
+    <ToolbarTitle text="Company submit form" />
+    </Toolbar>
+    <div style={paddingStyle}>
           <TextField
         hintText="Enter company name"
         floatingLabelText="Company name"
         onChange={(event) => props.onChangeCompany(event.target.value)}
         defaultValue={props.companyName}
-      />
+      /><br/>
       <TextField
         hintText="Enter product title"
         floatingLabelText="Product title"
         onChange={(event) => props.onChangeProduct(event.target.value)}
         defaultValue={props.productName}
-      />
+      /><br/>
         <AutoComplete
           floatingLabelText="Search factory..."
           filter={AutoComplete.fuzzyFilter}
@@ -51,7 +77,10 @@ class AddComponent extends React.Component {
     </IconButton>} />;
       })}
       </List>
-      <RaisedButton label="Default" onClick={() => props.saveProduct(props.active, props.companyName, props.productName)}/>
+      <RaisedButton label="Submit" primary={true} onClick={() => props.saveProduct(props.active, props.companyName, props.productName)}/>
+      </div>
+      </Paper>
+    </div>
     </div>
     );
   }
