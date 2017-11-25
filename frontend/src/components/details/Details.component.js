@@ -1,6 +1,22 @@
 import React from 'react';
-
+import AppBar from 'material-ui/AppBar';
+import Paper from 'material-ui/Paper';
+import {List, ListItem} from 'material-ui/List';
+import ActionInfo from 'material-ui/svg-icons/action/info';
+import Divider from 'material-ui/Divider';
+import Subheader from 'material-ui/Subheader';
+import Avatar from 'material-ui/Avatar';
+import FileFolder from 'material-ui/svg-icons/file/folder';
+import ActionAssignment from 'material-ui/svg-icons/action/assignment';
+import {blue500, yellow600} from 'material-ui/styles/colors';
+import EditorInsertChart from 'material-ui/svg-icons/editor/insert-chart';
+import {Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle} from 'material-ui/Toolbar';
 import './Details.css';
+
+const style = {
+  width: 400,
+};
+
 
 class DetailsComponent extends React.Component {
   constructor(props) {
@@ -10,7 +26,15 @@ class DetailsComponent extends React.Component {
 
   render() {
     const { props } = this;
-    return (
+    return (<div>
+      <AppBar
+      title="Eternal Earth"
+    />
+    <Toolbar>
+    <ToolbarTitle text="The Cool company" />
+    </Toolbar>
+    
+    <a className="vtlogolink">
       <div className="vtlogo">
       <div className="upper">
         <span className="char1">s</span>
@@ -32,7 +56,7 @@ class DetailsComponent extends React.Component {
         <div className="seal">
           <div className="face">
             <div className="evaluation">
-            {props.score}
+            
             </div>
           </div>
         </div>
@@ -44,6 +68,41 @@ class DetailsComponent extends React.Component {
         <span className="char4">r</span>
         <span className="char5">e</span>
       </div>
+    </div>
+    </a>
+    <List style={style}>
+      <ListItem
+        leftAvatar={<Avatar icon={<FileFolder />} />}
+        rightIcon={<ActionInfo />}
+        primaryText="Ironize"
+        secondaryText="Iron supplier"
+      />
+      <ListItem
+        leftAvatar={<Avatar icon={<FileFolder />} />}
+        rightIcon={<ActionInfo />}
+        primaryText="Big Metal"
+        secondaryText="Metal plant fron Africa"
+      />
+      <ListItem
+        leftAvatar={<Avatar icon={<FileFolder />} />}
+        rightIcon={<ActionInfo />}
+        primaryText="Plactic Fun co"
+        secondaryText="Plastic material supplier"
+      />
+      <ListItem
+        leftAvatar={<Avatar icon={<FileFolder />} />}
+        rightIcon={<ActionInfo />}
+        primaryText="Plactic Fun co"
+        secondaryText="Plastic material supplier"
+      />
+      <ListItem
+        leftAvatar={<Avatar icon={<FileFolder />} />}
+        rightIcon={<ActionInfo />}
+        primaryText="Plactic Fun co"
+        secondaryText="Plastic material supplier"
+      />
+    </List>
+    
     </div>
     );
   }
