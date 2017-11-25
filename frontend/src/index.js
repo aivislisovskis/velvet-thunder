@@ -20,9 +20,11 @@ import { ConnectedRouter, routerReducer, routerMiddleware, push } from 'react-ro
 import thunk from 'redux-thunk';
 
 import Widget from './components/widget/Widget.container';
+import Details from './components/details/Details.container';
 
 // reducers
 import WidgetReducer from './components/widget/Widget.reducers';
+import DetailsReducer from './components/details/Details.reducers';
 
 import registerServiceWorker from './registerServiceWorker';
 registerServiceWorker();
@@ -36,6 +38,7 @@ const middleware = routerMiddleware(history);
 const store = createStore(
   combineReducers({
     WidgetReducer,
+    DetailsReducer,
     routing: routerReducer
   }),
   applyMiddleware(middleware, thunk)
@@ -46,6 +49,7 @@ ReactDOM.render(
       <ConnectedRouter  history={history}>
         <div>
         <Route path="/id/:productId" component={Widget} />
+        <Route path="/details/:productId" component={Details} />
         </div>
       </ConnectedRouter>
     </Provider>
