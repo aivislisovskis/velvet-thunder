@@ -6,9 +6,9 @@ import {
 } from './Widget.actions';
 
 const mapStateToProps = (state) => ({
-  score: state.Widget.score,
-  noScore: state.Widget.noScore,
-  waitingScore: state.Widget.waitingScore,
+  score: state.WidgetReducer.score,
+  noScore: state.WidgetReducer.noScore,
+  waitingScore: state.WidgetReducer.waitingScore,
 });
 
 const mapDispatchToProps = () => ({

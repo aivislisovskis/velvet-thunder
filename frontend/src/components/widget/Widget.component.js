@@ -12,6 +12,7 @@ class WidgetComponent extends React.Component {
     const { props } = this;
     return (
      <div>
+       Grra
      </div>
     );
   }
