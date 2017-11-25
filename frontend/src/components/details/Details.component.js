@@ -32,12 +32,12 @@ class DetailsComponent extends React.Component {
       title="Eternal Earth"
     />
     <Toolbar>
-    <ToolbarTitle text="The Cool company" />
+    <ToolbarTitle text="Sustainability scoring of washing machine made by Grammargate Corparation" />
     </Toolbar>
     <div className="gridContainer">
     <div className="sidebar">
     <a className="vtlogolink">
-      <div className="vtlogo">
+      <div className="vtlogo green">
       <div className="upper">
         <span className="char1">s</span>
         <span className="char2">u</span>
@@ -58,7 +58,7 @@ class DetailsComponent extends React.Component {
         <div className="seal">
           <div className="face">
             <div className="evaluation">
-            
+            9.3
             </div>
           </div>
         </div>
