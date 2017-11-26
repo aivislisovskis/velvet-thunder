@@ -304,3 +304,10 @@
 .eval.yellow{
   background: #df9408;
 }
+
+.iframemap{
+  height: 100%;
+  width: 100%;
+  border: none;
+  overflow: hidden;
+}

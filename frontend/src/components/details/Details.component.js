@@ -83,7 +83,7 @@ class DetailsComponent extends React.Component {
     </List>
     </div>
     <div className="mainbar">
-
+<iframe className="iframemap"></iframe>
       </div>
       </div>
     </div>
