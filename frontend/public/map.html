@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Basic tile map</title>
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <link rel="stylesheet" href="leaflet/plugins/Leaflet.draw/leaflet.draw.css" />
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="leaflet/leaflet.js"></script>
+    <script src="leaflet/plugins/Leaflet.draw/leaflet.draw.js"></script>
+    <script src="http://ramani.ujuizi.com/api/v.0.1/ramani.min.js"></script>
+
+</head>
+<body>
+    <input type="text" id="search">
+<div style="width: 800px;height: 500px; position: relative" id="map"></div>
+</body>
+<script>
+
+    function renderMarkers(msg) {
+      console.info(msg);
+    }
+
+    var rc = new RamaniAPI();
+    rc.init({
+        username:'ramanicloud',
+        apiKey:'b59deb1f53cf8e035eaf3927c0741188',
+        package:'com.ujuizi.ramaniapi.js'
+    });
+    var map = rc.map({
+        center : new L.LatLng(49.27497287599639, 2.867431640625),
+        baselayer : 'osm'
+    });
+
+    var drawnItems = new L.FeatureGroup();
+
+    map.addLayer(drawnItems);
+
+    var drawControl = new L.Control.Draw({
+    edit: {
+        featureGroup: drawnItems
+        }
+    });
+
+
+    map.addControl(drawControl);
+
+
+    map.on('draw:created', function (e) {
+      var type = e.layerType,
+          overlay = e.layer;
+      var bbox;
+
+          if (type != 'circle' && type != 'marker' && type != 'polyline') {
+            var langs = overlay.getLatLngs();
+              var fields = {
+                id : '1',
+                name : 'asdasd'
+             };
+                var transect = rc.storePolygon('public.store_polygon',fields, langs );
+          }else if (type == 'polyline'){
+              var langs = overlay.getLatLngs();
+
+              // var transect = rc.getTransect(langs, {
+              //   layer: 'ddl.simS5seriesForAirQualityEuro.o3conc',
+              //   info_format : 'image/png'
+              // });
+                var fields = {
+                id : '1',
+                name : 'asdasd'
+             };
+                var transect = rc.storeLine('public.store_polyline',fields, langs );
+              //console.log(transect);
+              //$('body').append('<img src="data:image/png;base64,' + transect + '" />');
+              overlay.on('click', function() {
+                  //getTransect(layer, linestring);
+              });
+          }else if (type === 'marker'){
+               var info = rc.getPoint(overlay.getLatLng(), {
+                  layer: 'ddl.simS5seriesForAirQualityEuro.o3conc'
+               });
+               console.log(info);
+
+             // var info = rc.getVerticleProfile(overlay.getLatLng(), {
+             //    layer: 'ddl.simS5seriesForAirQualityEuro.o3conc',
+             //    info_format : 'image/png',
+             //    imgobj : 'imgobj'
+             // });
+
+             // // $('body').append('<img id="imgobj" src="' + info + '" />');
+             // var fields = {
+             //    id : '1',
+             //    name : 'asdasd'
+             // };
+             // rc.storePoint('public.store_point', fields, overlay.getLatLng());
+          }
+      drawnItems.addLayer(overlay);
+  });
+
+    $('#search').on('blur', function(e){
+        var key= $(this).val();
+        rc.search('public.geoserver_getfeature', key, true );
+    });
+
+    rc.getTile({
+      db: "ramanicloud",
+       layer: 'ddl.simS5seriesForAirQualityGlob.no2',
+       opacity:'1'
+    });
+
+    // rc.setParams({
+    //   item:'dates',
+    //   format : 'rss'
+    // });
+
+    // var metadata = rc.getMetadata('ddl.simS5seriesForAirQualityEuro.o3conc');
+    // console.log(metadata);
+
+</script>
+</html>

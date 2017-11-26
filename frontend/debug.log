@@ -5,3 +5,5 @@
 [1125/132330:ERROR:file_io.cc(30)] read: expected 4, observed 0
 [1125/163635:ERROR:file_io.cc(30)] read: expected 4, observed 0
 [1126/013924:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1126/064651:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1126/071016:ERROR:file_io.cc(30)] read: expected 4, observed 0

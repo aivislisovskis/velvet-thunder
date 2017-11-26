@@ -23,6 +23,14 @@ class DetailsComponent extends React.Component {
     props.getDetails(props.match.params.productId);
   }
 
+  componentDidUpdate () {
+    if(this.ifr) {
+      this.ifr.onload = () => {
+        this.ifr.contentWindow.renderMarkers(this.props.score.FactoryList);
+      }
+    }
+  }
+
   render() {
     const { props } = this;
     return (
@@ -74,6 +82,7 @@ class DetailsComponent extends React.Component {
     <List style={style}>
       {props.score?props.score.FactoryList.map((factory) => {
           return <ListItem
+            key={factory.UID}
             leftAvatar={<span className="eval">{factory.Score}</span>}
             rightIcon={<ActionInfo />}
             primaryText={`${factory.Location}; ${factory.Latitude}, ${factory.Longitude}`}
@@ -83,7 +92,7 @@ class DetailsComponent extends React.Component {
     </List>
     </div>
     <div className="mainbar">
-
+      <iframe src="/map.html" ref={(f) => this.ifr = f}/>
       </div>
       </div>
     </div>
