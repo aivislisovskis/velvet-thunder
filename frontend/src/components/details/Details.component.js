@@ -92,7 +92,7 @@ class DetailsComponent extends React.Component {
     </List>
     </div>
     <div className="mainbar">
-      <iframe src="/map.html" ref={(f) => this.ifr = f}/>
+      <iframe className="iframemap" src="/map.html" ref={(f) => this.ifr = f}/>
       </div>
       </div>
     </div>

@@ -287,13 +287,15 @@
 .eval{
   background: green;
   position: absolute;
+  border: 5px solid black;
   top: 16px;
   left: 16px;
-  height: 36px;
-  width: 36px;
+  height: 42px;
+  width: 42px;
   border-radius: 50%;
   text-align: center;
-  padding: 10px 0;
+  padding: 8px 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 18px;
   color: white;
@@ -301,4 +303,11 @@
 
 .eval.yellow{
   background: #df9408;
+}
+
+.iframemap{
+  height: 100%;
+  width: 100%;
+  border: none;
+  overflow: hidden;
 }

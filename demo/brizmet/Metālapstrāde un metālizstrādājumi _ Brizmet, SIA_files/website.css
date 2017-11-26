@@ -1,0 +1,98 @@
+body {
+    background-image: none;
+    background-color: #FFFFFF;
+}
+
+.has-logo .header-title {
+    left: 144px;
+}
+
+/* Headlines */
+.contentArea .h1{
+    font-size: 3.2em;
+}
+
+/* Subheadline */
+.contentArea .h2{
+    font-size: 1.6em;
+}
+
+.display figcaption {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    line-height: 1.3em;
+}
+
+/** =  LANGUAGE MENU = **/
+
+/* language menu - corrections - puts default dropdown inline */
+.no-touch .nav-language ul:last-child li {
+    display: block;
+    float: left;
+    margin: 0;
+}
+
+/* language menu - corrections - removes label - language */
+.btn-language {
+    display: none !important;
+}
+
+/* language menu - corrections - puts back icon on mobile */
+@media only screen and (max-width: 671px) {
+.btn-language {    
+    display: block !important;
+    }
+}
+
+/* language menu - corrections - removes language menu padding */
+.no-touch .nav-language ul:last-child {
+    padding: 0;
+}
+
+/* language menu - corrections - removes default bold */
+.no-touch .nav-language ul {
+    font-weight: inherit;
+}
+
+/* language menu - layout - creates space from top */
+.no-touch .nav-language {
+    margin-top: 30px;
+}
+
+/* 11) Language Dropdown */
+.no-touch .nav-language ul:last-child{
+    background: none;
+}
+
+/* 12) Language Dropdown */
+.no-touch .nav-language ul:last-child li,
+.no-touch .nav-language ul:last-child  a{
+    font-family: inherit;
+    font-size: 1.125em;
+    color: #000;
+    
+    margin-left: 6px; /* creates space between items*/
+}
+
+/* adds underline to links */
+.no-touch .nav-language ul:last-child  a{
+    text-decoration: underline;
+}
+
+.no-touch .nav-language ul:last-child a.active{
+    color: inherit;
+    text-decoration: none; /* removes underline to atcive link */
+}
+
+.no-touch .nav-language ul:last-child a:hover{
+    color: inherit;
+    text-decoration: none;
+}
+
+/* 13) Language Dropdown Arrow color */
+.no-touch .nav-language .btn-language:before{
+    color: inherit;
+}
+
+/** =  END – LANGUAGE MENU = **/

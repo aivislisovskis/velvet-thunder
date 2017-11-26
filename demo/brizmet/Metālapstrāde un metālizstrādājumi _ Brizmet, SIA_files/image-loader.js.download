@@ -1,0 +1,73 @@
+/**
+ * Image srcset loader
+ *
+ * @copyright 2014 mono solutions ApS
+ */
+(function ($, window, document, undefined) {
+
+    'use strict';
+
+    var $window = $(window),
+        $document = $(document),
+        images = [];
+
+    /**
+     * Updates the src of each image according to the current width, +/-10px.
+     */
+    function setSrc() {
+
+        var size = (document.documentElement.clientWidth || window.outerWidth) >= 672 ? 'large' : 'small';
+
+        for (var i = 0, l = images.length; i < l; i++) {
+
+            var el = images[i].el,
+                src = images[i][size];
+            if (!src) {
+                for (var prop in images[i]) {
+                    if (images[i].hasOwnProperty(prop) && typeof(images[i][prop]) === 'string') {
+                        src = images[i][prop];
+                        break;
+                    }
+                }
+            }
+
+            if (el.src === src) {
+                continue;
+            }
+
+            el.src = "/"+src;
+
+        }
+
+    }
+
+    /**
+     * Builds the images array with objects containing the src sets
+     * and a reference to each image.
+     */
+    function getImages() {
+
+        $('img[data-srcset]').each(function () {
+
+            var srcset = this.getAttribute('data-srcset').split(', '),
+                set = {
+                    el: this
+                };
+
+            // Add each set from the srcset to the set object where
+            // the key is the width and value is the src.
+            for (var j = 0, m = srcset.length; j < m; j++) {
+                set[srcset[j].split('_srcset-')[1].split('.')[0]] = srcset[j];
+            }
+
+            images.push(set);
+
+        });
+
+    }
+
+    $document.on('ready', getImages);
+    $document.on('ready', setSrc);
+    $window.on('resize', setSrc);
+
+})(jQuery, window, document);
