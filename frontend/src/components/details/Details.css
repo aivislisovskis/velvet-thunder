@@ -282,6 +282,7 @@
 .mainbar{
   flex-grow: 2;
   background: #232323;
+  overflow: hidden;
 }
 
 .eval{
