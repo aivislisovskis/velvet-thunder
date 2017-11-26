@@ -13,13 +13,14 @@
 
 </head>
 <body>
-    <input type="text" id="search">
 <div style="width: 800px;height: 500px; position: relative" id="map"></div>
 </body>
 <script>
 
     function renderMarkers(msg) {
-      console.info(msg);
+      for (a = 0; a < msg.length; a++) {
+        L.marker([msg[a].Latitude, msg[a].Longitude]).addTo(map);
+      }
     }
 
     var rc = new RamaniAPI();
@@ -30,7 +31,8 @@
     });
     var map = rc.map({
         center : new L.LatLng(49.27497287599639, 2.867431640625),
-        baselayer : 'osm'
+        baselayer : 'osm',
+        zoom: 3
     });
 
     var drawnItems = new L.FeatureGroup();
@@ -45,7 +47,6 @@
 
 
     map.addControl(drawControl);
-
 
     map.on('draw:created', function (e) {
       var type = e.layerType,
@@ -106,7 +107,7 @@
     rc.getTile({
       db: "ramanicloud",
        layer: 'ddl.simS5seriesForAirQualityGlob.no2',
-       opacity:'1'
+       opacity:'0.8'
     });
 
     // rc.setParams({
