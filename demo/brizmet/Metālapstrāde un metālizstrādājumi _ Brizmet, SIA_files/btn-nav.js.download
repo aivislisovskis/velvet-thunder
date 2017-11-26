@@ -1,0 +1,202 @@
+/**
+ * Dropdown navigation jQuery plugin
+ *
+ * @link http://www.monosolutions.com
+ * @copyright mono solutions 2014
+ */
+(function ($, Modernizr, undefined) {
+
+    'use strict';
+
+    /**
+     * Constructor
+     *
+     * @param {object} element DOM element reference to the button
+     * @param {object} options
+     */
+    var NavDropdown = function (element, options) {
+
+        var defaults = {
+
+            // DOM elements wrapped in jQuery
+            items: undefined,
+
+            // DOM element wrapped in jQuery of which to measure the top distance
+            top: undefined,
+
+            // Callback function to execute when a navigation is toggled
+            onToggle: undefined
+
+        };
+
+        this.options = $.extend({}, defaults, options);
+        this.$element = $(element);
+        this.$nav = undefined;
+
+        if (this.options.items) {
+            this.init();
+        }
+
+    };
+
+    NavDropdown.prototype = {
+
+        /**
+         * Initializes the dropdown menu and adds event handlers
+         */
+        init: function () {
+
+            var self = this,
+                clickEvents = ['click'];
+
+            if (Modernizr.touch) {
+                var event = window.navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? 'touchstart' : 'tap';
+                clickEvents.push(event);
+            }
+
+            self.appendNav();
+
+            // Button event handler
+            self.$element.on(clickEvents.join(' '), function (e) {
+                if (self.options.top) {
+                    self.$nav[0].style.top = self.options.top.height() + 'px';
+                }
+
+                self.$nav.toggleClass('hidden');
+
+                if (self.options.onToggle) {
+                    self.options.onToggle.call(self);
+                }
+
+                e.preventDefault();
+
+            });
+
+            // Delegate event handlers to each menu item with children
+            self.$nav.on(clickEvents.join(' '), 'li:has(ul) a .arrow', function (e) {
+
+                // Prevent click event - needed for Android devices
+                if (clickEvents.length > 1 && e.type === 'click') {
+                    e.preventDefault();
+                    return;
+                }
+
+                var $a = $(this).parent();
+
+                $a.parent().toggleClass('active');
+                self.toggleArrow($a);
+
+                e.preventDefault();
+
+            });
+
+        },
+
+        /**
+         * Appends the dropdown navigation to the DOM
+         */
+        appendNav: function () {
+
+            var self = this;
+
+            self.$nav = $('<nav class="nav-dropdown hidden hidden-large">' + self.options.items.html() + '</nav>');
+
+            self.$nav.find('li').has('ul').each(function () {
+                self.addArrow($(this));
+            });
+
+            self.$element.after(self.$nav);
+
+        },
+
+        /**
+         * Adds an arrow to the menu item
+         *
+         * @param {object} $el
+         */
+        addArrow: function ($el) {
+
+            var arrow = '<span class="arrow">' + ($el.hasClass('active') ? '▼' : '▶') + '</span>';
+
+            $el.children('a').prepend(arrow);
+
+        },
+
+        /**
+         * Toggles between rightwards and downwards arrow
+         *
+         * @param {object} $el
+         */
+        toggleArrow: function ($el) {
+
+            var $arrow = $el.children('.arrow'),
+                arrow = $arrow.html() == '▶' ? '▼' : '▶';
+
+            $arrow.html(arrow);
+
+        }
+
+    };
+
+    /**
+     * Expose as a jQuery plugin.
+     */
+    $.fn.navDropdown = function (options) {
+
+        return this.each(function () {
+
+            if (!$.data(this, 'navDropdown')) {
+                $.data(this, 'navDropdown', new NavDropdown(this, options));
+            }
+
+        });
+
+    };
+
+    /**
+     * Initialize the jQuery plugin
+     */
+    $(function () {
+
+        var $btnNav = $('[data-bind~="toggle-btn-nav"]'),
+            $btnLanguage = $('[data-bind~="toggle-btn-language"]');
+
+        if ($btnNav.length) {
+
+            var $navItems = $('.nav-primary').length ? $('.nav-primary').clone() : $('.nav-secondary').clone();
+
+            $btnNav.navDropdown({
+                items: $navItems,
+                top: $('.header-container'),
+                onToggle: function () {
+
+                    // Hide other dropdown navigations
+                    $('.nav-dropdown').not(this.$nav).addClass('hidden');
+
+                }
+            });
+
+        }
+
+        if ($btnLanguage.length) {
+
+            var $languageItems = $('.nav-language').clone();
+
+            $languageItems.find('.hidden-small, .btn-language').remove();
+
+            $btnLanguage.navDropdown({
+                items: $languageItems,
+                top: $('.header-container'),
+                onToggle: function () {
+
+                    // Hide other dropdown navigations
+                    $('.nav-dropdown').not(this.$nav).addClass('hidden');
+
+                }
+            });
+
+        }
+
+    });
+
+})(jQuery, Modernizr);
